@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Georgia;
+  font-size: 1rem;
+}
+html {
+  --primary-color: rgb(36, 128, 164);
+  --top-bar-color: rgb(36, 128, 164);
+}
+h1 {
+  color: var(--primary-color);
+}
+li {
+  list-style-type: none;
+  text-size-adjust: none;
+}
+section,
+footer {
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+hilight {
+  color: var(--primary-color);
+}
+nav ul {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: repeat(7, 0.3fr);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 40px;
+}
+nav ul li {
+  color: white;
+  font-size: 1.2;
+}
+nav ul li.logo {
+  font-size: 1.5rem;
+}
+.about,
+.contact {
+  height: 2fr;
+}
+.about p {
+  padding: 10px 5px;
+}
+.about button {
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: white;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  color: orangered;
+}
+.about h1,
+.contact h1 {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+.contact button {
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.contact button.instra {
+  border: 2px solid purple;
+  background-color: purple;
+}
+.contact button.facebook {
+  border: 2px solid rgb(38, 82, 135);
+  background-color: rgb(38, 82, 135);
+}
+.contact button.youtube {
+  border: 2px solid red;
+  background-color: red;
+}
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+footer p {
+  padding: 10px 5px;
+}
+footer ul {
+  padding: 10px 10px;
+}
+footer ul.first {
+  padding: 10px 10px;
+}
+footer li ul {
+  padding-left: 30px;
+}
+.signIn {
+  box-sizing: border-box;
+  margin: 50px 10px;
+
+}
+.signIn h1{
+  margin: 10px 0px;
+}
+.signIn input {
+  width: 100%;
+}
+.signIn label,.signIn .submit{
+   margin: 10px 0px;
+}
