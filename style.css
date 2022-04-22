@@ -1,0 +1,237 @@
+/*  */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+  
+header {
+background-color: rgb(67, 108, 155);
+color: white;
+padding: 10px;
+}
+
+header .logo,
+nav,
+nav li {
+padding: 10px;
+display: inline-block;
+}
+
+/* Navigation Links */
+nav a,
+nav a:link,
+nav a:visited,
+nav a:focus,
+nav a:hover,
+nav a:active {
+outline: none;
+text-decoration: none;
+color: white;
+font-size: 1.5em;
+}
+
+/* Main Body */
+main {
+padding: 25px 40px;
+
+height: 100vh;
+}
+
+main h1 {
+padding-bottom: 20px;
+margin-top: 20px;
+font-weight: 750px;
+color: rgb(48, 92, 143);
+}
+
+main p {
+padding-bottom: 15px;
+line-height: 1.2rem;
+}
+
+main span {
+color: rgb(64, 117, 179);
+}
+/* All buttons */
+.membership-button,
+.membership-button:link,
+.membership-button:hover,
+.membership-button:visited,
+.membership-button:focus {
+text-decoration: none;
+display: inline-flex;
+color: rgb(233, 140, 0);
+font-size: 1.2em;
+margin-bottom: 30px;
+padding: 20px;
+border: 3px solid rgb(233, 140, 0);
+border-radius: 15px;
+}
+
+.membership-button:active {
+background: rgb(233, 140, 0);
+color: white;
+border-color: white;
+}
+
+.instagram,
+.instagram:link,
+.instagram:hover,
+.instagram:visited,
+.instagram:focus {
+text-decoration: none;
+display: inline-flex;
+background-color: rgb(99, 73, 245);
+color: white;
+font-size: 1.5em;
+margin-bottom: 30px;
+padding: 15px 35px;
+border: 3px solid rgb(99, 72, 248);
+border-radius: 15px;
+}
+
+.instagram:active {
+background: rgb(123, 101, 252);
+}
+
+.facebook,
+.facebook:link,
+.facebook:hover,
+.facebook:visited,
+.facebook:focus {
+text-decoration: none;
+display: inline-flex;
+background-color: rgb(47, 113, 236);
+color: white;
+font-size: 1.5em;
+margin: 0 30px 30px 30px;
+padding: 15px 35px;
+border: 3px solid rgb(41, 99, 207);
+border-radius: 15px;
+}
+
+.facebook:active {
+background: rgb(75, 133, 240);
+}
+
+.youtube,
+.youtube:link,
+.youtube:hover,
+.youtube:visited,
+.youtube:focus {
+text-decoration: none;
+display: inline-flex;
+background-color: rgb(250, 47, 33);
+color: white;
+font-size: 1.5em;
+margin-bottom: 30px;
+margin-right: 30px;
+padding: 15px 35px;
+border: 3px solid rgb(146, 37, 29);
+border-radius: 15px;
+}
+
+.youtube:active {
+background: rgb(248, 100, 89);
+}
+
+.instagram,
+.facebook,
+.youtube {
+box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-section {
+position: absolute;
+}
+
+.testimonial-section img {
+height: 75px;
+width: 75px;
+border-radius: 100px;
+margin-right: 10px;
+float: left;
+}
+
+.testimonial-1,
+.testimonial-2 {
+border: 2px solid rgb(189, 189, 189);
+border-radius: 10px;
+padding: 10px;
+margin: 10px 0;
+max-width: 750px;
+box-shadow: 6px 6px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.comment,
+.name {
+display: block;
+}
+
+footer {
+background-color: rgb(67, 108, 155);
+color: white;
+padding: 10px;
+width: 100%;
+}
+
+footer h2 {
+padding: 10px;
+font-weight: 100;
+}
+
+.features {
+margin: 2px 0;
+padding-left: 10px;
+}
+
+.gym-list {
+margin-left: 25px;
+list-style: none;
+}
+
+/* ABOUT PAGE GYM LOCATIONS */
+
+.gyms {
+    display: flex;
+    gap: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin-bottom: 5px;
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 500px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.gyms ul {
+    background-color: rgb(54, 90, 130);
+    width: 220px;
+    padding: 5px;
+
+    list-style-position: inside;
+}
+
+.gyms li {
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
