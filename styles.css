@@ -1,0 +1,149 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #277194;
+    color: white;
+    padding: 25px;
+}
+
+header ul {
+    display: inline;
+    font-size: 1.35rem;
+    text-align: left;
+    padding: 10px;
+}
+
+header li {
+    display: inline;
+    font-size: 1.35rem;
+    text-align: center;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 25px;
+}
+
+strong {
+    color: #277194;
+}
+
+h2 {
+    color: #277194;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+article button {
+    background-color: white;
+    color: orange;
+    border: solid 3px orange;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.25rem;
+}
+
+article {
+    margin-bottom: 70px;
+}
+
+#instagram {
+    background-color: rgb(103, 18, 143);
+    color: white;
+    border: hidden 3px black;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 1.75rem;
+    margin-right: 45px;
+    box-shadow: 2px 2px #dbdada;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#facebook {
+    background-color: royalblue;
+    color: white;
+    border: hidden 3px black;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 1.75rem;
+    margin-right: 45px;
+    box-shadow: 2px 2px #dbdada;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#youtube {
+    background-color: red;
+    color: white;
+    border: hidden 3px black;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 1.75rem;
+    box-shadow: 2px 2px #dbdada;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+nav {
+    margin-bottom: 45px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.Popular-features {
+    display: grid;
+    background-color: #277194;
+    color: white;
+    padding: 25px;
+    margin: ;
+    margin-bottom: 0px;
+}
+
+.Popular-features ul {
+    padding: 0px;
+}
+
+.Popular-features ul, li {
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+
+.Popular-features ul li li {  
+    padding-left: 25px;
+}
+
+
+.Customer-Testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Customer-Testimonials img {
+    width: 300px;
+}
+
+.Jack, .John, .Jill {
+    border: solid 6px #277194;
+    margin-right: 35px;
+}
+
+.Testimonials {
+    margin-bottom: 45px;
+}
