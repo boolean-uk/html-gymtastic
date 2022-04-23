@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px 250px;
+  }
+
+.header,
+.footer {
+    
+    padding: 27px 30px;
+    background-color: rgb(61, 118, 165);
+}
+  
+#title,
+.nav {
+    display: inline;
+    color: white;
+    padding-left: 10px;
+}
+
+#title {
+    font-size: 27px;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 0 20px;
+}
+
+.page_title {
+    color: rgb(61, 118, 165);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+.heading {
+    color: rgb(82, 82, 82);
+    font-size: 25px;
+    margin: 30px 0 20px 15px;
+    text-align: center;
+}
+
+.facade,
+.CEO,
+.equipments,
+.map {
+    width: 550px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    box-shadow: 2px 3px 3px 3px rgba(61, 118, 165, 0.494);
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.features {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.locations {
+    display: inline-grid;
+    margin: 80px 30px 30px 30px;
+    width: 245px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(61, 118, 165, 0.494);
+    height: 400px;
+}
+  
+.locations img {
+    border-radius: 100px;
+    margin-left: 18px;
+    width: 208px;
+}
+  
+.locations p {
+    padding-left: 15px;
+    font-size: 20px;
+}
+  
+.locations h3 {
+    font-size: large;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
