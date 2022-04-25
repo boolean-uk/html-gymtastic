@@ -26,7 +26,7 @@ footer {
   box-sizing: border-box;
   padding: 10px 30px;
 }
-hilight {
+hilight{
   color: var(--primary-color);
 }
 nav ul {
@@ -90,10 +90,7 @@ footer {
 footer p {
   padding: 10px 5px;
 }
-footer ul {
-  padding: 10px 10px;
-}
-footer ul.first {
+footer ul,footer ul.first {
   padding: 10px 10px;
 }
 footer li ul {
@@ -113,25 +110,37 @@ footer li ul {
 .signIn label,.signIn .submit{
    margin: 10px 0px;
 }
-.review{
-  width: auto;
-  height: 300px;
-}
+
 .review ul{
   display: grid;
   /* grid-template-columns: 100px 100px 100px; */
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   grid-gap: 10px;
   padding: 0 50px;
+  /* place-items: center center; left-right top-bottom */
+}
+.review{
+  margin: 10px;
+  padding: 10px;
+}
+.review ul{
+
+  margin: 5px;
+  padding: 5px;
 }
 .review ul li{
-  padding: 20px;
+  box-sizing: border-box;
   border: 2px solid black;
   border-radius: 10px;
   text-align: center;
+
+
 }
 .review nav h2{
   display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  
 }
 .review nav img{
   height:25px;
