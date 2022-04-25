@@ -12,6 +12,11 @@ html {
 h1 {
   color: var(--primary-color);
 }
+h2{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 li {
   list-style-type: none;
   text-size-adjust: none;
@@ -107,4 +112,28 @@ footer li ul {
 }
 .signIn label,.signIn .submit{
    margin: 10px 0px;
+}
+.review{
+  width: auto;
+  height: 300px;
+}
+.review ul{
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-gap: 10px;
+  padding: 0 50px;
+}
+.review ul li{
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.review nav h2{
+  display: inline-block;
+}
+.review nav img{
+  height:25px;
+ width: 100px;
 }
