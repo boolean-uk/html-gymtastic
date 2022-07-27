@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    color: white;
+    background-color: #357BA6;
+    padding: 5px 20px 5px 20px;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+main {
+    padding: 40px;
+}
+
+main h1,
+main h2 {
+    color: #357BA6;
+}
+
+main p {
+    font-size: 20px;
+}
+
+.discount {
+    color: #357BA6;
+    font-weight: bold;
+}
+
+.socialMedia {
+    margin-top: 60px;
+}
+
+.membershipButton,
+.instagramButton,
+.facebookButton,
+.youtubeButton {
+    padding: 14px 20px 14px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.membershipButton {
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.instagramButton,
+.facebookButton,
+.youtubeButton {
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 4px 2px 6px lightgray;
+}
+
+.instagramButton {
+    background-color: blueviolet;
+}
+
+.facebookButton {
+    background-color: #3578EA;
+}
+
+.youtubeButton {
+    background: red;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer h4 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 1.6;
+    padding: 0;
+}
+
+footer ul {
+    font-weight: bold;
+}
+
+footer ul ul {
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.ourGyms {
+    margin-top: 10px;
+}
+
+.gymcard {
+    height: 160px;
+    width: 160px;
+    border: 2px solid #357BA6;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background: lightblue;
+    display: inline-block;
+}
+
+.gymName {
+    font-weight: bold;
+    color: #357BA6;
+}
+
+.gymcard .mapButton {
+ display: inline-block;
+ border: 1px solid darkcyan;
+ color: darkcyan;
+ font-weight: bold;
+ font-size: 20px;
+ border-radius: 8px;
+ padding: 8px;
+ font-size: 12px;
+}
