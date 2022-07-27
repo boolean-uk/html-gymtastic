@@ -115,3 +115,34 @@ footer ul ul {
     font-weight: normal;
     padding-left: 20px;
 }
+
+.ourGyms {
+    margin-top: 10px;
+}
+
+.gymcard {
+    height: 160px;
+    width: 160px;
+    border: 2px solid #357BA6;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background: lightblue;
+    display: inline-block;
+}
+
+.gymName {
+    font-weight: bold;
+    color: #357BA6;
+}
+
+.gymcard .mapButton {
+ display: inline-block;
+ border: 1px solid darkcyan;
+ color: darkcyan;
+ font-weight: bold;
+ font-size: 20px;
+ border-radius: 8px;
+ padding: 8px;
+ font-size: 12px;
+}
