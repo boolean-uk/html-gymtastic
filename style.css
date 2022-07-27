@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.Banner {
+    width: 1fr;
+    height: 80px;
+    background-color: rgb(23, 165, 190);
+    color: white;
+    padding: 20px;
+  }
+.Logo {
+    margin: 30px 10px;
+    font-weight: 800;
+    font-size: x-large;
+}  
+.Banner .Button {
+    margin: 20px;
+}
+h1 {
+    margin: 30px 20px 10px 20px;
+    color: rgb(23, 165, 190);
+}
+p {
+    margin: 20px;
+    font-size: large;
+}
+.Save {
+    color: rgb(23, 165, 190);
+    font-weight: 800;
+}
+.Get-Membership {
+    display: inline-block;
+    color: orange;
+    margin: 5px 20px;
+    padding: 15px 30px;
+    border: solid 2px orange;
+    border-radius: 15px;
+}
+.Social-Media {
+    display: inline-block;
+    margin: 20px 20px;
+    color: white;
+}
+.Instagram, 
+.Facebook, 
+.YouTube {
+    background-color: purple;
+    border: solid 2px rgba(0, 0, 0, 0.486) ;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 40px;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: x-large;
+}
+.Social-Media .Facebook {
+    background-color: blue;
+    border: solid 1px black;
+}
+.Social-Media .YouTube {
+    background-color: red;
+    border: solid 1px black;
+}
+.Footer {
+    width: 1fr;
+    height: 1fr;
+    background-color: rgb(23, 165, 190);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+ul {
+    margin-left: 25px;
+    list-style-type: none;
+}
