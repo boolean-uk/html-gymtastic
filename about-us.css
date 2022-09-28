@@ -1,0 +1,91 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+.navbar {
+  height: 60px;
+  background-color: #3283a8;
+  color: white;
+  padding-top: 25px;
+}
+.navbar a {
+  color: white;
+}
+.navbar p, h1, a {
+  display: inline;
+  padding: 20px;
+}
+.navbar p, a {
+  font-size: 20px;
+}
+.main {
+  height: 320px;
+  margin-left: 30px;
+}
+.main h2 {
+  font-size: 30px;
+  color: #3283a8;
+}
+.main .london {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #3283a8;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .cardiff {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #3283a8;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .glasgow {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #3283a8;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .london, .cardiff, .glasgow {
+  display: inline;
+  margin-right: 30px;
+}
+.footer {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  height: 220px;
+  background-color: #3283a8;
+}
+.footer p, ul {
+  margin: 0px;
+}
+.footer .pop {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
