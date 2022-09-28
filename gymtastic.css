@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.navbar {
+    height: 60px;
+    background-color: #3283a8;
+    color: white;
+    padding-top: 25px;
+}
+.navbar a {
+    color: white;
+}
+.navbar p, h1, a {
+    display: inline;
+    padding: 20px;
+}
+.navbar p, a {
+    font-size: 20px;
+}
+.main {
+    height: 600px;
+    margin-left: 30px;
+}
+.main h2 {
+    font-size: 30px;
+    color: #3283a8;
+
+}
+.main span {
+    color: #3283a8;
+}
+.main .member {
+    color: orange;
+    border: solid 2px orange;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 200px;
+}
+.main .insta {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(140, 55, 219);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .insta, .FB, .YT {
+    display: inline;
+    margin-right: 30px;
+}
+.main .FB {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: 	#4267B2;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .YT {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(211, 16, 16);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 5px 5px 5px 0px #00000050;
+}
+.main .test {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.main .test1 p{
+    padding-bottom: 20px;
+}
+.footer {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    height: 220px;
+    background-color: #3283a8;
+}
+.footer p, ul {
+    margin: 0px;
+}
+.footer .pop {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
