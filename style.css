@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  h2,
+  strong {
+    color: teal;
+  }
+  
+  /* Header Things  --------------------------------------*/
+  .header .logo,
+  .header nav,
+  .header ul,
+  .header li {
+    display: inline-block;
+  }
+  
+  .header {
+    background-color: teal;
+    padding: 20px;
+  }
+  .header .logo {
+    color: white;
+    font-size: 30px;
+  }
+  .header nav {
+    margin-left: 20px;
+  }
+  .header ul {
+    list-style: none;
+  }
+  .header ul li {
+    margin-right: 20px;
+  }
+  .header ul a {
+    color: white;
+    text-decoration: none;
+  }
+  /* -------------------------------------- */
+  
+  /* Main section +++++++++++++++++++++++++++++ */
+  .main {
+    padding: 30px;
+  }
+  
+  .top-section,
+  .bottom-section {
+    padding: 10px;
+  }
+  
+  .main .section-title {
+    margin-bottom: 20px;
+  }
+  
+  .main p {
+    margin-bottom: 10px;
+  }
+  
+  .get-membership {
+    color: orange;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* ++++++++++++++++++++++++++++++++++++++++++ */
+  
+  /* Footer section ////////////////////////// */
+  .footer {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+  }
+  .footer-section {
+    margin-bottom: 10px;
+  }
+  .footer .popular-features-list {
+    list-style: none;
+    font-weight: bold;
+  }
+  .footer .popular-sub-feature {
+    list-style: none;
+    font-weight: normal;
+    margin-left: 20px;
+  }
+  
+  .social-link {
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .instagram {
+    background-color: purple;
+  }
+  .facebook {
+    background-color: royalblue;
+  }
+  .youtube {
+    background-color: red;
+  }
+  /* ///////////////////////////////////// */
+  
