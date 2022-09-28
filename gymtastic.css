@@ -18,10 +18,10 @@ body {
     font-size: 20px;
 }
 .main {
-    height: 300px;
+    height: 320px;
 }
 .main h2 {
-    /* height: 500px; */
+    font-size: 30px;
     color: #3283a8;
 
 }
@@ -87,6 +87,17 @@ body {
     box-shadow: 5px 5px 5px 0px #00000050;
 }
 .footer {
-    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    height: 220px;
     background-color: #3283a8;
+}
+.footer p, ul {
+    margin: 0px;
+}
+.footer .pop {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
 }
