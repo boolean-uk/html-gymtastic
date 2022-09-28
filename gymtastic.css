@@ -1,0 +1,18 @@
+.navbar {
+    height: 75px;
+    background-color: #3283a8;
+    color: white;
+    padding-top: 25px;
+}
+.navbar p, h1 {
+    display: inline;
+    padding: 10px;
+}
+.main {
+    /* height: 500px; */
+
+}
+.footer {
+    height: 200px;
+    background-color: #3283a8;
+}
