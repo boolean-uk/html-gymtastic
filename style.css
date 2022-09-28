@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+ 
+/* Heading */
+  
+.header,
+.footer {
+    background-color: rgb(89, 126, 173);
+    color: white;
+    padding: 10px 20px;
+}
+  
+.header h1,
+.header ul,
+.header li {
+    display: inline-block;
+}
+  
+.header li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header li a:active {
+    text-decoration: underline;
+}
+  
+.header ul {
+    padding-left: 0;
+}
+
+/* Main content */
+  
+.main-content {
+    margin: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+  
+.main-content h2 {
+    color: rgb(89, 126, 173);
+    font-size: 2em;
+}
+  
+.main-content h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+  
+.discount {
+    color: rgb(89, 126, 173);
+    font-weight: bold;
+}
+  
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+/* Default button styling */
+  
+.default {
+    text-transform: uppercase;
+    color: orange;
+    border: 3px solid orange;
+}
+  
+.social {
+    font-weight: bold;
+    color: white;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+  
+.instagram {
+    background-color: blueviolet;
+}
+  
+.facebook {
+    background-color: royalblue;
+}
+  
+.youtube {
+    background-color: red;
+}
+
+/* Testimonials */
+
+.testimonial {
+    display: inline-block;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.testimonial .quote {
+    font-style: italic;
+    text-align: center;
+}
+
+.testimonial .name {
+    text-align: right;
+}
+
+/* Locaions */
+
+.location {
+    display: inline-block;
+    margin-right: 20px;
+    width: 150px;
+    height: 250px;
+    background-color: rgb(89, 126, 173);
+    color: white;
+    text-align: center;
+}
+
+.location .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.location .description {
+    font-style: italic;
+}
+
+.location .button {
+    background-color: white;
+    color: rgb(89, 126, 173);
+    padding: 10px;
+    margin-top: 20px
+}
+
+/* Footer */
+  
+.footer li {
+    list-style-type: none;
+}
+  
+.footer ul {
+    padding: 0;
+}
+  
+.footer ul li {
+    font-weight: bold;
+}
+  
+.footer ul ul {
+    padding-left: 20px;
+}
+  
+.footer ul ul li {
+    font-weight: normal;
+}
+
+.footer h3 {
+    font-weight: normal;
+}
+  
