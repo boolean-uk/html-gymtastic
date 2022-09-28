@@ -104,6 +104,7 @@ p {
 .social-media-btns {
   display: flex;
   gap: 20px;
+  margin-bottom: 16px;
 }
 
 .social-btn {
@@ -129,6 +130,49 @@ p {
 
 .red-background {
   background-color: rgba(255, 0, 0, 0.764);
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.testimonial {
+  display: flex;
+  gap: 25px;
+  width: 500px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.customer-img {
+  height: 100px;
+  width: 100px;
+}
+
+.customer-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+blockquote {
+  font-style: italic;
+  color: #777;
+}
+
+.testimonial-link:link,
+.testimonial-link:visited {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.testimonial-link:hover {
+  text-decoration: underline;
 }
 
 /*******************************************/
