@@ -71,12 +71,15 @@ ul.links li {
 }
  li.instagram {
     background-color: rgb(160, 12, 252);
+    box-shadow: rgb(128, 6, 204) 1px 1px 1px 1px;
  }
  li.facebook {
     background-color: rgb(95, 122, 245);
+    box-shadow:rgb(52, 88, 248) 1px 1px 1px 1px;
  }
  li.youtube {
     background-color: rgb(240, 62, 62);
+    box-shadow: rgb(247, 6, 6) 1px 1px 1px 1px;
  }
  div.review {
     list-style: none;
