@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+}
+.header {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgb(19, 107, 173);
+    color: white;
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+   
+    
+}
+.header p{
+  margin-left: 30px;
+  margin-top: 30px;
+ 
+}
+
+.main h2, span{
+color: rgb(46, 110, 220);
+}
+.main, .socialmedia {
+    margin: 0px 0px 0px 30px ;
+}
+
+.membership {
+    border: solid orange 2px;
+    border-radius: 10px;
+    color: orange;
+    padding: 15px 15px 15px 15px;
+    display: inline-flex;
+    
+}
+
+.socialmedia h2{
+    color: rgb(19, 107, 173);
+    margin: 20px 0px 0px 0px;
+    
+}
+.socialmedia p {
+    display: inline-flex;
+    padding: 10px 10px 10px 10px;
+}
+
+.socialmedia .instagram {
+    background-color: #8250df;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px rgb(150, 148, 148);
+    text-align: center;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.socialmedia .facebook {
+    background-color: rgb(46, 110, 220);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 3px rgb(150, 148, 148);
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+
+.socialmedia .youtube {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 3px rgb(150, 148, 148);
+    font-weight: bold;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.list {
+    background-color:rgb(19, 107, 173);
+    color: white;
+    padding: 5px;
+}
+
+.list ul {
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px 15px 0px 15px;
+    margin-top: 0px;
+}
+.list p {
+    margin-left: 10px;
+}
