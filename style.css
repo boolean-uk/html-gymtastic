@@ -117,8 +117,9 @@
     width: 200px;
     height: 300px;
     margin: 20px 0px 20px 40px;
-    background-color: rgb(231, 231, 231);
-    border: 1px solid rgb(168, 168, 168);
+    color: white;
+    background-color: rgb(3, 129, 179);
+    border: 2px solid rgb(3, 76, 105);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
     display: inline-block;
