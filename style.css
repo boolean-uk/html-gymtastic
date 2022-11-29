@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: deepskyblue;
+  }
+  
+  .highlight {
+    color: deepskyblue;
+  }
+  
+  .banner {
+    padding: 20px;
+    background-color: deepskyblue;
+    color: white;
+  }
+  
+  .banner h3 {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .banner span {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .main {
+    margin: 0px 30px;
+  }
+  
+  .main p {
+    margin: 10px 0px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 5px 20px 10px 0px;
+    padding: 10px 25px;
+    border: solid 2px;
+    border-radius: 10px;
+  }
+  
+  .social.button {
+    box-shadow: 2px 2px 5px #00000050;
+    font-weight: bold;
+  }
+  
+  .button.membership {
+    color: orangered;
+    border-color: orangered;
+  }
+  
+  .button.instagram {
+    color: white;
+    background-color: rgb(140, 0, 255);
+    border-color: rgb(140, 0, 255);
+  }
+  
+  .button.facebook {
+    color: white;
+    background-color: rgb(0, 89, 255);
+    border-color: rgb(0, 89, 255);
+  }
+  
+  .button.youtube {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-table;
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card span {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+  }
+  
+  .card .name span {
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .card .name h3 {
+    display: inline-block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .features h3 {
+    font-weight: normal;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .features ul.sublist {
+    font-weight: normal;
+    margin-left: 23px;
+    margin-top: 0px;
+  }
+  
