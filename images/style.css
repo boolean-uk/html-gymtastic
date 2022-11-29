@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}  
+.item{
+    padding-left: 20px;
+}
+.about{
+    padding-left: 20px;
+}
+.contact{
+    padding-left: 20px; 
+}
+
+.gymtastic {
+    background-color:rgb(53, 123, 166);
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 50px;
+    padding: 20;
+    margin: 0px;
+
+} 
+.fitness{
+    color: rgb(53, 123, 166);
+    font-size: medium;
+    padding: 0;
+    margin: 10;
+}
+
+.information{
+    color: black;
+    margin: 10;
+    padding: 0;
+}
+.getmembership{
+    width:180 ;
+    height: 30px;;
+    border: solid 1px rgba(255, 98, 0, 0.648);
+    border-radius: 40px; 
+    padding: 0px;
+    margin: 10px;
+    text-align:center; 
+    color: rgba(240, 73, 12, 0.653);
+}
+.follow{
+    width: 10000;
+    height: 50;
+    padding:0;
+     margin: 10;
+     color: rgba(70, 43, 226, 0.593);
+     padding-bottom: 0;
+
+}
+.insta{
+    display: inline-block;
+    color: white;
+    width:140 ;
+    height: 30px;
+    border: solid 1px rgba(122, 39, 205, 0.648);
+    border-radius: 10px; 
+    background :rgb(135, 75, 244);
+    padding: 0px;
+    margin: 10px;
+}
+.facebook{
+    display: inline-block;
+    color: white;
+    width:140 ;
+    height: 30px;;
+    border: solid 1px rgba(122, 39, 205, 0.648);
+    border-radius: 10px; 
+    background :rgb(53, 123, 166);
+    padding: 0px;
+    margin: 10px;
+    color:white;
+    text-align:center;
+}
+.youtube{
+    display: inline-block;
+    color: white;
+    width: 140px ;
+    height: 30px;;
+    border: solid 1px rgba(122, 39, 205, 0.648);
+    border-radius: 10px; 
+    background:rgb(234, 50, 35);
+    padding: 0px;
+    margin: 10px;
+    color:white;
+    text-align:center;
+
+}
+.popular{
+    width:100%;
+    height: 200;
+    background-color:rgb(53, 123, 166);
+    color:white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+ ul >li{
+    font-size: smaller;
+    padding-left: 20px;
+}
+
+h4{
+    padding-left: 5px;
+}
