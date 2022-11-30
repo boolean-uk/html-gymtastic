@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  div {
+    margin-bottom: 20px;
+  }
+  span {
+    color: rgb(3, 129, 179);
+  }
+  h2 {
+    display: inline;
+  }
+  h3 {
+    display: inline;
+  }
+  
+  .header {
+    background-color: rgb(3, 129, 179);
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+  }
+
+  a.header {
+    background-color: rgb(3, 129, 179);
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18.72px;
+    text-decoration: none;
+  }
+  
+  .MainPage {
+    margin: 20px;
+  }
+  
+  h1.MainPage {
+    color: rgb(3, 129, 179);
+  }
+  
+  p.MainPage.Last {
+    padding-bottom: 20px;
+  }
+  
+  p.MainPage.Button {
+    display: inline;
+    padding: 10px;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 10px;
+  }
+  
+  .Socials {
+    margin: 20px;
+  }
+  
+  h2.Socials {
+    display: block;
+    color: rgb(3, 129, 179);
+    margin: 20px;
+    padding-top: 20px;
+  }
+  
+  h3.Socials.You {
+    background-color: rgb(231, 52, 52);
+    padding: 10px 20px;
+    border: 1px solid rgb(124, 18, 18);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+  }
+  
+  h3.Socials.Face {
+    background-color: #2b6be2;
+    padding: 10px 20px;
+    border: 1px solid #1b4085;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+  }
+  
+  h3.Socials.Insta {
+    background-color: rgb(116, 77, 143);
+    padding: 10px 20px;
+    border: 1px solid rgb(56, 37, 70);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+  }
+  
+  div.Footer {
+    background-color: rgb(3, 129, 179);
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  h3.Footer {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  ul.Footer {
+    padding: 0 0 0 0;
+    margin-top: 15px;
+  }
+  
+  li {
+    color: white;
+    padding-left: 20px;
+  }
+  
+  div.Testimonials {
+    width: 200px;
+    height: 300px;
+    margin: 20px 0px 20px 40px;
+    color: white;
+    background-color: rgb(3, 129, 179);
+    border: 2px solid rgb(3, 76, 105);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+    display: inline-block;
+  }
+  
+  h4.Testimonials {
+    padding: 10px;
+  }
+  
+  p.Testimonials {
+    padding: 10px;
+  }
+  
+  div.Customers {
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  h2.Customers {
+    color: rgb(3, 129, 179);
+  }
+  
