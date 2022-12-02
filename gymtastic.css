@@ -1,0 +1,57 @@
+.HEADER span{
+    display:inline-block;
+    margin-right: 80px;
+
+}
+
+h1{
+    color:rgb(73, 73, 210)
+}
+
+.GET-MEMBERSHIP{
+    background-color: white;
+    color:orange;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+
+}
+.Instagram{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border-color: blueviolet;
+    padding: 8px;
+    border-style: solid;
+
+}
+
+.Facebook{
+    background-color: lightskyblue;
+    color:white;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    padding: 8px;
+    border-style: solid;
+}
+
+.Youtube{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border-color: red;
+    padding: 8px;
+    border-style: solid;
+}
+
+.bottom{
+    background-color: lightskyblue;
+    color:white;
+    line-height: 0.8;
+
+}
+
+div>p>span{
+    color:blue;
+}
