@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+}
+.toppage{
+    background-color: rgb(25, 131, 167);
+    height: 50px;
+    padding-top: 20px;
+    
+}
+.toptext{
+    display: inline;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+}
+span{
+    color: rgb(25, 131, 167);
+}
+.middlepage{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 50px;
+}
+.middletitle{
+    color: rgb(25, 131, 167);
+}
+.membership{
+    border: solid 2px orange;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    color: orange;
+}
+.ig{
+    display: inline;
+    padding: 10px;
+    color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.fb{
+    display: inline;
+    padding: 10px;
+    color: white;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(68, 68, 238);
+    margin: 10px;
+}
+.yt{
+    display: inline;
+    padding: 10px;
+    color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: red;
+    margin: 10px;
+
+}
+
+.bottompage{
+    background-color: rgb(25, 131, 167);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    
+}
+.popfeat{
+    margin: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+dt{
+    margin-left: 20px;
+    font-size: small;
+}
+dd{
+    font-size: smaller ;
+}
+h4{
+    margin-left: 20px;
+    font-size: small;
+}
+#lasth4{
+    padding-bottom: 20px;
+}
