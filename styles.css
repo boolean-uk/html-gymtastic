@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color:#357598 ;
+    height: 170px;
+    width: auto;
+    margin: none;
+}
+
+.first {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 0.5px;
+    padding-right: 45px;
+    text-emphasis: bold;
+    text-align:left;
+}
+
+div > ul > li {
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.gymtastic {
+    padding-left: 1px;
+}
+
+section {
+    padding-left: 70px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 26px;
+    
+}
+
+.bigtext {
+    font-weight: bold;
+    color: #357598;
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.fiftypercent {
+    font-weight: bold;
+    color:#357598 ;
+}
+
+
+button {
+    border-radius: 20px;
+}
+
+.membershipbutton {
+    background-color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: #e88132;
+    color: #e88132;
+    padding: 24px 40px;
+    border: solid 3px; 
+}
+
+section > ul > li {
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+section > ul {
+    padding-left: 0px;  
+}
+
+.instagram {
+    color: white;
+    font-weight: bold;
+    background-color:#874bf4;
+    font-size: 35px;
+    padding: 24px 60px;
+    box-shadow:  3px 3px 10px rgba(121, 118, 118, 0.8);
+    border-color: #e88132;
+    border: solid 1.5px #280055;
+
+
+}
+
+.facebook {
+    color: white;
+    font-weight: bold;
+    background-color:#3578ea;
+    font-size: 35px;
+    padding: 24px 60px;
+    box-shadow:  3px 3px 10px rgba(121, 118, 118, 0.8);
+    border-color: #e88132;
+    border: solid 1.5px #060055;
+ }
+
+.youtube {
+    color: white;
+    font-weight: bold;
+    background-color:#ea3223;
+    font-size: 35px;
+    padding: 24px 60px;
+    box-shadow:  3px 3px 10px rgba(121, 118, 118, 0.8);
+    border: solid 1.5px #460c07; 
+}
+
+footer {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#357598;
+    color: white;
+    height: 500px;
+}
+
+footer > ul {
+    font-size: 28px;
+    padding-left: 0px;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 40px;
+
+}
+
+footer > ul > li > ul {
+    font-size: 28px;
+    list-style-type: none;
+    font-weight: 200;
+
+}
+
+#popular {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.testimonials {
+    background-color: rgb(124, 124, 124);
+    padding-right: 25px;
+}
+
+#testimonialtitle {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.julie {
+    font-size: 22px;
+}
+
+article {
+    width: 550px;
+    height: 375px;
+    background-color: #874bf4;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 50px;
+    box-shadow:  4px 5px 10px rgba(121, 118, 118, 0.8);
+    border: solid 1px #280055;
+    
+}
+
+.cities {
+    text-align: center;
+    color: white;
+    font-size: 37px;
+}
+
+.cityinfo {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
