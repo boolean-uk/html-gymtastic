@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1454px;
+    margin: auto;
+}
+
+a.nostyle {
+        text-decoration: inherit;
+        color: inherit;
+}
+
+a.nostyle:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    padding: 2.75rem;
+    background-color: rgb(7, 124, 170);
+    color: white;
+}
+
+.header .logo {
+    font-size: 44px;
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.header .navigation {
+    display: inline-block;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 1.5rem;
+}
+
+/* Main */
+.main {
+    padding: 4rem;
+}
+
+.main .title {
+    color: rgb(7, 124, 170);
+    font-size: 3.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.main .description {
+    padding: 1rem 0;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.main .description strong {
+    color: rgb(7, 124, 170);
+}
+
+.main .membership-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    border: solid 4px rgb(247, 123, 8);
+    color: rgb(247, 123, 8);
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+}
+
+.main .membership-button:hover {
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.main .membership-button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Follow Us Section */
+
+.follow {
+    padding: 0 4rem;
+}
+
+.follow .title {
+    color: rgb(7, 124, 170);
+    font-size: 3.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.follow .socials {
+    display: inline-block;
+    list-style: none;
+}
+
+.follow li {
+    display: inline-block;
+    border: solid 2px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 1.6rem 3.8rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-right: 3rem;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+.follow .socials .instagram {
+    background-color: rgb(135, 75, 244);
+}
+
+.follow .socials .facebook {
+    background-color: rgb(53, 120, 234);
+}
+
+.follow .socials .youtube {
+    background-color: rgb(234, 50, 35);
+}
+
+.follow li:hover {
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.follow li:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Testimonials */
+
+.testimonials {
+    padding: 0 4rem;
+}
+
+.testimonials .title {
+    color: rgb(7, 124, 170);
+    font-size: 3.7rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.testimonials .testimonial-list {
+    list-style: none;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    border: solid 2px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 1.6rem 3.8rem;
+    margin-right: 2rem;
+}
+
+.testimonials .testimonial .name {
+    text-align: center;
+    color: rgb(7, 124, 170);
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    background-color: rgb(7, 124, 170);
+    color: white;
+}
+
+footer .title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+footer .popular-features {
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+footer .feature {
+    font-weight: 600;
+}
+
+footer .gyms-near {
+    list-style: none;
+    margin-left: 2rem;
+    font-weight: 400;
+}
