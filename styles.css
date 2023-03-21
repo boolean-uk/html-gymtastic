@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+p{
+    margin-left:20px;
+}
+.headerlinks {
+    background-color: rgb(47, 112, 156);
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 15px;
+
+    
+    margin: 0;
+  }
+ .home, .logo{
+    display:inline;
+    margin-left:20px
+ }
+ .home{
+    font-size: 20px;
+ }
+
+.Fitness, .followus{
+    color: skyblue;
+    font-size: 30px;
+    margin: 20px;
+}
+
+span{
+    color:skyblue;
+}
+.membership{
+
+    color:orange;
+
+    border: solid 1px orange;
+    border-radius: 5px;
+
+    height: 30px;
+    width: 150px;
+
+    margin: 15px;
+
+
+}
+.instagram {
+    color: white;
+    font-size: 20px;
+    background-color: purple;
+
+    height: 50px;
+    width: 150px;
+
+    border-radius: 9px;
+    border-color: solid 2px black;
+    border-width: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    margin: 20px;
+}
+.facebook{
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    font-size: 20px;
+
+    border-color: rgb(228, 114, 39);
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 9px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 20px;
+}
+.youtube{
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 44, 32);
+    font-size: 20px;
+
+    border-color: rgb(228, 114, 39);
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 9px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 20px;   
+    
+}
+.footdec{
+    background-color: skyblue;
+    padding: 15px;  
+    color:white;  
+}
+.popularf{
+    font-size: 20px;
+}
+ul{
+    margin-left: -30px;
+}
