@@ -103,6 +103,42 @@ h1 {
   
 }
 
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
 footer {
   background-color: #367ba6;
   color: white;
@@ -137,6 +173,54 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 30%;
+  max-height: 200px;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #777777;
+}
+
+.card button {
+  background-color: #367ba6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #26608b;
 }
 
 body {
