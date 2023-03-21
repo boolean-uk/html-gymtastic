@@ -14,7 +14,12 @@ nav {
     height: 80px;
     overflow: hidden; 
 }
-
+.testimon {
+    border: dashed 1px var(--ourcolour);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
 nav button {
     font-size: 16px;
     margin: 25px;
@@ -34,7 +39,7 @@ nav button {
 }
 
 .main {
-    height: 75vh;
+    height: 60vh;
     margin: 50px;
     overflow: auto;
 }
@@ -131,4 +136,27 @@ li {
 
 .bottompadding {
     padding-bottom: 20px;
+}
+article {
+    height: 30vh;
+    margin: 50px 50px 0px 50px;
+}
+.loccards button {
+    display: inline-block;
+}
+.cards {
+    padding: 10px;
+    height: 100px;
+    margin: 10px 10px 10px 50px;
+    border-radius: 5px;
+}
+
+.one {
+    background-color: bisque;
+}
+.two {
+    background-color: burlywood;
+}
+.three {
+    background-color: aqua;
 }
