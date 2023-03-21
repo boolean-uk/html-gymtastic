@@ -18,7 +18,7 @@
     color: lightblue;
 }
 
-.main > h1 + p + br + p > 
+.main > article > h1 + p + br + p > 
         span {
     color: lightblue;
 }
@@ -50,3 +50,18 @@
 .main article + article > h1 + p + p + p {
     background-color: red;
 }
+
+.footer {
+    background-color: lightblue;
+    padding: 10px;
+    color: white;
+}
+
+.footer p {
+    margin: 0 0 0 30px;
+}
+
+.footer h3, h4 {
+    margin: 0px;
+}
+
