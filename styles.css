@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: rgb(7, 124, 170);
+  height: 100px;
+  padding: 25px;
+}
+
+.header > ul,
+.header > h1,
+.header > ul > li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.header > h1 {
+  color: white;
+}
+
+.header > ul > li > a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.section-title {
+  color: rgb(7, 124, 170);
+  font-size: 2rem;
+  padding: 40px;
+}
+
+.main > section > p {
+  padding-left: 40px;
+  font-size: 1.3rem;
+}
+
+.button {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px 20px;
+  color: black;
+  margin-left: 40px;
+}
+
+.instagram-button {
+  color: white;
+  background-color: rgb(123, 28, 196);
+  border: 2px solid rgb(123, 28, 196);
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.facebook-button {
+  color: white;
+  background-color: rgb(28, 87, 196);
+  border: 2px solid rgb(28, 87, 196);
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.youtube-button {
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.main > section > a {
+  color: orange;
+  border: 2px solid orange;
+}
+
+.main > section > p > strong {
+  color: rgb(7, 124, 170);
+}
+
+.main > section > ul > li {
+  display: inline;
+}
+
+.footer {
+  background-color: rgb(7, 124, 170);
+  padding: 25px;
+  color: white;
+}
+
+.footer > ul,
+.footer > ul > li > ul {
+  list-style: none;
+}
+
+.footer > ul > li > ul > li {
+  padding-left: 20px;
+}
+
+.card {
+  display: inline-block;
+  background-color: rgb(7, 124, 170);
+  width: 300px;
+  height: 400px;
+  margin-left: 40px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.card > h3  {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card > p {
+  color: white;
+  margin: 20px
+  
+}
+.card > p + p {
+  font-size: 0.8rem;
+}
+
+.card > .profile-picture {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 85px;
+}
+
+.gym-card {
+  display: inline-block;
+  background-color: rgb(7, 124, 170);
+  width: 300px;
+  height: 100px;
+  margin-left: 40px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.gym-card > a {
+  padding-left: 85px;
+  text-decoration: none;
+  color: white;
+}
+
+.gym-card > h3 {
+  padding-left: 55px;
+  color: white;
+}
