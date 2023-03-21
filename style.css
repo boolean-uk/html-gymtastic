@@ -1,28 +1,20 @@
-ul {
+/* .nav { */
+/*     vertical-align: middle; */
+/* } */
+
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #367ba6;
-    padding: 0;
     overflow: hidden;
 }
 
-.nav ul {
-    list-style-type: none;
-
-}
-
-.nav li {
-    float: left;
-    display: inline;
+.nav ul li {
+    vertical-align: middle;
+    display: inline-block;
     color: rgb(16, 4, 4);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  
-    text-decoration: none;
   }
-  
 
 .nav li a {
     display: block;
@@ -30,18 +22,9 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
 .nav .logo {
-font-size: 30px;
-padding: 14px 16px;
-
-
-}
-.nav{
-    margin: 0;
-    padding: 0; 
-
-
+  font-size: 20px
 }
 
 h1 {
