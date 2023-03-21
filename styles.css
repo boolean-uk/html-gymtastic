@@ -1,120 +1,159 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-h2 {
-  color: rgb(7, 124, 170);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
   background-color: rgb(7, 124, 170);
-  padding: 20px;
+  height: 100px;
+  padding: 25px;
 }
 
-.header .logo,
-.header ul,
-.header ul li {
+.header > ul,
+.header > h1,
+.header > ul > li {
   display: inline;
+  padding-right: 20px;
 }
 
-.header .logo {
-  font-size: 25px;
+.header > h1 {
   color: white;
 }
 
-.header ul {
-  list-style: none;
-  margin-left: 20px;
-}
-
-.header ul a {
-  font-size: 20px;
-  padding: 15px;
+.header > ul > li > a {
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
 }
-.main {
+
+.section-title {
+  color: rgb(7, 124, 170);
+  font-size: 2rem;
   padding: 40px;
 }
-.main .top-section .section-title {
-  font-size: 40px;
-  margin-bottom: 10px;
+
+.main > section > p {
+  padding-left: 40px;
+  font-size: 1.3rem;
 }
 
-.main .top-section p {
-  font-size: 20px;
-  margin-bottom: 10px;
+.button {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px 20px;
+  color: black;
+  margin-left: 40px;
 }
 
-.main .top-section p strong {
+.instagram-button {
+  color: white;
+  background-color: rgb(123, 28, 196);
+  border: 2px solid rgb(123, 28, 196);
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.facebook-button {
+  color: white;
+  background-color: rgb(28, 87, 196);
+  border: 2px solid rgb(28, 87, 196);
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.youtube-button {
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  padding: 15px 35px;
+  font-size: 1.5rem;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
+}
+
+.main > section > a {
+  color: orange;
+  border: 2px solid orange;
+}
+
+.main > section > p > strong {
   color: rgb(7, 124, 170);
 }
 
-.main .top-section a {
-  padding: 10px 15px;
-  font-size: 15px;
-  border-radius: 10px;
-  border: 3px solid orange;
-  text-decoration: none;
-  color: orange;
-  display: inline-block;
-}
-.main .follow-us-section .section-title {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-.main .follow-us-section {
-  margin-top: 20px;
-}
-
-.main .follow-us-section a {
-  margin-right: 20px;
-  padding: 10px 20px;
-  font-size: 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  display: inline-block;
-  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.254);
-}
-.main .follow-us-section .instagram-button {
-  background-color: purple;
-  border: 3px solid purple;
-  color: white;
-}
-
-.main .follow-us-section .facebook-button {
-  background-color: blue;
-  border: 3px solid blue;
-  color: white;
-}
-
-.main .follow-us-section .youtube-button {
-  background-color: red;
-  border: 3px solid red;
-  color: white;
+.main > section > ul > li {
+  display: inline;
 }
 
 .footer {
   background-color: rgb(7, 124, 170);
-  padding: 20px;
-}
-
-.footer .section-title,
-.footer ul li,
-.footer ul li strong,
-.footer ul li ul li {
-  list-style: none;
+  padding: 25px;
   color: white;
 }
 
-.footer .section-title {
-  font-size: 25px;
-  margin-bottom: 15px;
+.footer > ul,
+.footer > ul > li > ul {
+  list-style: none;
 }
 
-.footer ul li ul li {
-  margin-left: 20px;
+.footer > ul > li > ul > li {
+  padding-left: 20px;
+}
+
+.card {
+  display: inline-block;
+  background-color: rgb(7, 124, 170);
+  width: 300px;
+  height: 400px;
+  margin-left: 40px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.card > h3  {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card > p {
+  color: white;
+  margin: 20px
+  
+}
+.card > p + p {
+  font-size: 0.8rem;
+}
+
+.card > .profile-picture {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 85px;
+}
+
+.gym-card {
+  display: inline-block;
+  background-color: rgb(7, 124, 170);
+  width: 300px;
+  height: 100px;
+  margin-left: 40px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.gym-card > a {
+  padding-left: 85px;
+  text-decoration: none;
+  color: white;
+}
+
+.gym-card > h3 {
+  padding-left: 55px;
+  color: white;
 }
