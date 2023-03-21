@@ -1,0 +1,210 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #357ba6;
+  height: 130px;
+  /* margin-top: 16px; */
+}
+
+nav div {
+  padding: 40px 0 40px 95px;
+}
+
+#logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav div a {
+  color: white;
+  margin-right: 45px;
+  font-size: 31px;
+}
+
+.mainBody {
+  margin: 55px 135px 55px 135px;
+}
+
+.get {
+  margin-top: 75px;
+}
+
+.get-membership {
+  font-size: 35px;
+  color: #e88132;
+  border: 5px solid #e88132;
+  border-radius: 25px;
+  padding: 25px 35px;
+}
+
+h1 {
+  color: #357ba6;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+div p {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.follow-us {
+  margin: 75px 0 85px 0;
+}
+
+.follow-us h1 {
+  margin-bottom: 55px;
+}
+
+div span {
+  color: #357ba6;
+  font-weight: bold;
+}
+
+.socials {
+  color: white;
+  font-size: 35px;
+  border-radius: 25px;
+  padding: 25px 65px;
+  font-weight: bold;
+}
+
+.instagram {
+  background-color: #874bf4;
+  border: 3px solid #6a45ae;
+  margin-right: 35px;
+}
+
+.facebook {
+  background-color: #3578ea;
+  border: 3px solid #3861a8;
+  margin-right: 35px;
+}
+
+.youtube {
+  background-color: #ea3223;
+  border: 3px solid #a8362c;
+}
+
+footer {
+  background-color: #357ba6;
+  padding: 45px 0 45px 95px;
+  color: white;
+}
+
+/* GYM TESTIMONIAL SECTION */
+section img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.testimonial-card {
+  padding: 65px 45px 55px 45px;
+  background-color: #87b9e8;
+  display: flex;
+  flex-direction: row;
+  border-radius: 11px;
+}
+
+.right {
+  margin-left: 35px;
+}
+
+.right h2 {
+  margin-bottom: 21px;
+}
+
+.right p {
+  color: rgb(82, 79, 79);
+  line-height: 1.5;
+}
+
+section p {
+  font-size: 19px;
+}
+
+.customer {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
+}
+
+section h1 {
+  margin-bottom: 35px;
+}
+
+/* GYM LOCATION */
+.locations {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gym-location {
+    font-size: 21px;
+    padding: 45px 35px 45px 55px;
+    border-radius: 11px;
+    width: 395px;
+}
+
+.color1 {
+    background-color: gold;
+    margin-right: 35px;
+}
+
+.color2 {
+    background-color: rgb(125, 200, 127);
+    margin-right: 35px;
+}
+
+
+.color3 {
+    background-color: rgb(105, 161, 225);
+}
+
+.gym-location h2 {
+    margin-bottom: 15px;
+}
+
+.gym-location p {
+    margin-bottom: 5px;
+}
+
+/* FOOTER SECTION */
+
+footer li {
+  list-style: none;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+footer a {
+  list-style: none;
+  color: white;
+}
+
+ul ul {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.footerMainMenu {
+  font-weight: bold;
+}
+
+footer h2 {
+  font-size: 29px;
+  margin-bottom: 16px;
+}
