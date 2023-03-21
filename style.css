@@ -10,11 +10,14 @@ header{
 header > a{
     font-size: 20px;
     padding: 10px;
-    color: white;
+    color: white;  
+    text-decoration: none;
 }
 .HeaderButton{
     font-size: 15px;
+
 }
+
 h1{
     color: rgb(23, 143, 194);
     padding: 15px;
@@ -100,10 +103,29 @@ footer > h3 {
     padding: 10px;
     color: white;
     line-height: 1.2;
+    border-radius: 5px;
 }
 
 .testimonials > span {
-    font-size: 40px;
+    padding-top: 0;
+    font-size: 35px;
     color: white;
     line-height: 0.8;
+}
+.mark{
+    display: block;
+    text-align: right;
+}
+.testimonials > p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.name{
+    font-size: 10px;
+    padding-top: 10px;
+}
+h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color:  rgb(23, 143, 194);
 }
