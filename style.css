@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(23, 143, 194);
+    padding: 20px;
+}
+header > a{
+    font-size: 20px;
+    padding: 10px;
+    color: white;  
+    text-decoration: none;
+}
+.HeaderButton{
+    font-size: 15px;
+
+}
+
+h1{
+    color: rgb(23, 143, 194);
+    padding: 15px;
+    padding-left: 0;
+}
+section{
+    padding: 25px;
+}
+section > p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+span{
+    color: rgb(23, 143, 194);
+    font-weight: bold;
+}
+section > button{
+    margin-top: 15px;
+    border-color: orange;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    color: orange;
+    border-style: solid;
+}
+
+h2{
+    color: rgb(23, 143, 194);
+    padding-bottom: 10px;
+}
+
+.instagram {
+    color: white;
+    background-color: rgb(113, 35, 187);
+    border: solid 1px purple;
+    box-shadow: 1px 1px 5px #888888;
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.facebook {
+    color: white;
+    background-color: rgb(35, 119, 187);
+    border: solid 1px rgb(0, 30, 128);
+    box-shadow: 1px 1px 5px #888888;
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.youtube{
+    color: white;
+    background-color: rgb(240, 51, 51);
+    border: solid 1px rgb(128, 0, 0);
+    box-shadow: 1px 1px 5px #888888;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(23, 143, 194);
+    padding: 20px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding-left: 20px;
+}
+footer > p {
+    font-weight: bold;
+}
+
+footer > h3 {
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+.testimonials {
+    background-color: cadetblue;
+    padding: 10px;
+    color: white;
+    line-height: 1.2;
+    border-radius: 5px;
+}
+
+.testimonials > span {
+    padding-top: 0;
+    font-size: 35px;
+    color: white;
+    line-height: 0.8;
+}
+.mark{
+    display: block;
+    text-align: right;
+}
+.testimonials > p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.name{
+    font-size: 10px;
+    padding-top: 10px;
+}
+h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color:  rgb(23, 143, 194);
+}
+
+.london, .cardiff, .glasgow {
+    height: 225px;
+    width: 160px;
+    background-color: rgb(23, 143, 194);
+    color: white;
+    border: none;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+img {
+    width: 130px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 10px
+
+}
+
+.contactus {
+    background-color: rgb(23, 143, 194);
+    width: 210px;
+    padding: 20px;
+    border-radius: 10px;
+}
+section > div > p {
+    color: white;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+section > div > button {
+    width: 150px;
+    margin: 10px px; 
+}
