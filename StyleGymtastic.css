@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    margin: 15px;
+    background-color: rgb(86, 86, 255);
+    color: white;
+}
+
+header > p, h1{
+    display: inline-block;
+    padding: 30px;
+}
+
+header > p{
+    padding-left: 150px;
+}
+
+h2, span{
+    color:  rgb(86, 86, 255);
+
+}
+
+section{
+    padding-top: 6vh;
+    padding-bottom: 7vh;
+}
+
+section > p, h2{
+    padding: 20px 0px 40px 45px;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+input, a{
+    padding: 15px 45px 15px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a{
+    padding: 0px;
+    margin: 20px 45px 20px 45px ;
+}
+
+input{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#instagram{
+    background-color: blueviolet;
+}
+
+#facebook{
+    background-color: rgb(105, 110, 254);
+}
+
+#youtube{
+    background-color: red;
+}
+
+#membership{
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}
+
+footer{
+    margin: 15px;
+    background-color: rgb(86, 86, 255);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer > h4, p, ul, a > li{
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+h4{
+    padding-bottom: 30px;
+}
+
+footer > ul > a{
+    color: white;
+    margin: 0px;
+}
+
