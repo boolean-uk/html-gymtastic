@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+:root {
+    --ourcolour:  rgb(34, 137, 216)
+}
+
+
+nav {
+    background-color: rgb(34, 137, 216);
+    height: 80px;
+    overflow: hidden; 
+}
+.testimon {
+    border: dashed 1px var(--ourcolour);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+nav button {
+    font-size: 16px;
+    margin: 25px;
+    color: white;
+    background-color: rgb(34, 137, 216);
+    border: 0;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    height: 60vh;
+    margin: 50px;
+    overflow: auto;
+}
+
+.title {
+    color: var(--ourcolour);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p {
+    padding: 15px 0px;
+}
+
+.member {
+    color: chocolate;
+    background-color: white;
+    border-color: chocolate;
+    border-radius: 12px;
+    border-style: solid;
+    width: 180px;
+    height: 40px;
+    }
+
+.instagram {
+    color: white;
+    background-color: #8a3ab9;
+    border: solid 1px indigo;
+    border-radius: 12px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 0;
+    box-shadow: 1px 1px 3px grey;
+    }
+
+.facebook {
+    color: white;
+    background-color: blue;
+    border: solid 1px darkblue;
+    border-radius: 12px;    
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.youtube {
+    color: white;
+    background-color: red;
+    border: solid 1px darkred;
+    border-radius: 12px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px grey;
+}
+
+span {
+    color: var(--ourcolour);
+    font-weight: bold;
+}
+
+.bottom {
+    background-color: var(--ourcolour);
+    color: white;
+    padding: 30px;
+}
+
+.bottom a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.main button a {
+    color: white;
+    text-decoration: none;
+}
+
+.main button{
+    min-width: 100px;    
+    position: relative;
+
+}
+
+.link {
+    margin-bottom: 20px;
+}
+
+.bottompadding {
+    padding-bottom: 20px;
+}
+article {
+    height: 30vh;
+    margin: 50px 50px 0px 50px;
+}
+.loccards button {
+    display: inline-block;
+}
+.cards {
+    padding: 10px;
+    height: 100px;
+    margin: 10px 10px 10px 50px;
+    border-radius: 5px;
+}
+
+.one {
+    background-color: bisque;
+}
+.two {
+    background-color: burlywood;
+}
+.three {
+    background-color: aqua;
+}
