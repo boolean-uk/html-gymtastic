@@ -118,3 +118,36 @@ a {
   margin-left: 0;
   font-weight: bold;
 }
+/* --------------AboutUs----------------- */
+.img-text {
+  background: linear-gradient(
+      to bottom,
+      rgba(2, 0, 36, 0.5) 0%,
+      rgba(19, 121, 9, 0.5) 23%,
+      rgba(0, 212, 255, 0.5) 92%
+    ),
+    url(./images/pexels-maarten-van-den-heuvel-2284169.jpg) center / cover
+      no-repeat fixed;
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  z-index: -2;
+  background: ;
+}
+.about-footer {
+  position: fixed;
+  background: transparent;
+  color: #222;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.upper-heading p,
+h4,
+.lower-headings p {
+  margin-bottom: 1rem;
+}
