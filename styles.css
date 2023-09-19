@@ -1,0 +1,171 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    max-width: 800px;
+  }
+  body {
+    min-width: 500px;
+  }
+  
+  h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    padding-right: 20px;
+  }
+  
+  h2 {
+    color: rgb(75, 148, 185);
+  }
+  h3 {
+    font-weight: lighter;
+  }
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  } 
+
+  nav {
+    display: inline;
+  }
+  
+  .logo {
+    color: white;
+    background-color: rgb(75, 148, 185);
+    padding: 18px;
+  }
+  
+  .logo span {
+    padding: 20px;
+  }
+
+  .logo span:hover {
+    background-color: rgb(14, 62, 101, 0.8);
+  }
+
+  .popular-features {
+    color: white;
+    background-color: rgb(75, 148, 185);
+    padding: 20px;
+  }
+  
+  .fitness, .follow, .about-us{
+    margin: 20px;
+  }
+  
+  .testimonials {
+    margin: 20px;
+    max-width: 500px;
+    min-width: 100px;
+  }
+
+  ul#social-media {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul#social-media li {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 10px 10px 0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  ul#popular-features {
+    padding: 0;
+  }
+  
+  ul#popular-features li {
+    list-style: none;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  ul#gym-location li {
+    list-style: none;
+    margin: 0;
+    font-weight: lighter;
+  }
+  
+  #membership {
+    display: inline;
+    padding: 10px 25px;
+    color: orange;
+    border: orange solid 2px;
+    border-radius: 10px;
+    margin: 0;
+  }
+  
+  .purple-box {
+    background-color: blueviolet;
+    border: rgb(99, 10, 183) solid 2px;
+    border-radius: 10px;
+  }
+  .blue-box {
+    background-color: blue;
+    border: rgb(0, 0, 185) solid 2px;
+    border-radius: 10px;
+  }
+  .red-box {
+    background-color: red;
+    border: rgb(190, 1, 1) solid 2px;
+    border-radius: 10px;
+  }
+
+  .shadow {
+    box-shadow: 2px 2px 3px rgb(192, 190, 190);
+  }
+  
+  .testimonial {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 0px;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.9);
+    padding: 5px 10px;
+  }
+  
+  .gym-member {
+    font-size: 0.8em;
+    margin: 0 0 2px 0;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.7);
+    padding: 2px 5px;
+  }
+  
+  .our-gyms h2, .our-gyms p {
+    color: white;
+    text-align: center;
+  }
+
+  .our-gyms h3 {
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .our-gyms ul {
+    padding: 0;
+  }
+
+  .our-gyms li {
+    list-style-type: none;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .our-gyms li:nth-of-type(2n-1) {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  section div {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+  }
