@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+   
+    padding: 25px;
+    background-color: rgb(56, 122, 196);
+}
+.logo a{
+    font-size: 35px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  main container */
+.main-container{
+    padding: 30px 25px;
+
+}
+.main-h1{
+   color:rgb(56, 122, 196) ;
+   padding-bottom: 25px;
+}
+.main-container p{
+    padding-bottom: 10px;
+}
+.main-container-parg{
+    /*padding: 2px 0;*/
+    margin-bottom: 30px;
+}
+strong{
+    color: rgb(98, 98, 231);
+}
+.main-container-link{
+    border: 3px solid rgba(239, 156, 32, 0.82);
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgba(239, 156, 32, 0.82);
+}
+/*  main container */
+.container{
+    padding: 30px 25px;
+}
+.cntnr-heding{
+    color: rgb(56, 122, 196);
+    padding: 25px 25px;
+}
+.contnr-links{
+    border: 1px solid rgb(123, 120, 120);
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+.cntnr-link-1{
+    margin: 0px 15px 40px 25px;
+    background-color:  rgb(131, 58, 180);
+    box-shadow: 5px 5px 5px rgb(187, 133, 223);
+}
+.cntnr-link-2{
+    margin: 10px 0px;
+    background-color: rgb(56, 122, 196);
+}
+.cntnr-link-3{
+    margin: 10px 15px;
+    background-color: red;
+}
+.footer{
+    margin: 30px 0px 0px 0px;
+    padding: 20px 20px;
+    background-color: rgb(56, 122, 196) ;
+    color: #fff;
+}
+.footer-headng2{
+    padding-top: 10px;
+}
+.footer-li{
+     list-style-type: none;
+     padding-left: 20px;
+     font-size: 16px;
+}
+
+/*  about us*/
+
+body{
+    background-color: rgb(226, 226, 239);
+}
+img{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: fit-content;
+}
+.abt-container h2{
+    text-align: center;
+    color: rgb(56, 122, 196);
+    font-size: 35px;
+}
+.abt-container h5{
+    text-align: center;
+    color: rgb(93, 93, 227);
+    font-size: 20px;
+}
+.abt-container p{
+   
+   margin: 15px 35px;
+}
