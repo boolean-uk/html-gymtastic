@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background-color: #297b9b;
+}
+
+.header,
+.footer,
+.content {
+  padding: 20px;
+}
+
+.header .logo,
+.header nav {
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  margin: 0;
+}
+
+nav ul,
+nav ul li {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+h1,
+.footer {
+  color: white;
+}
+
+h2 {
+  color: #297b9b;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+ul ul {
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+/* Button styling */
+
+button {
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  margin: 20px;
+}
+
+button p {
+  padding: 10px 25px;
+}
+
+.red {
+  border: 1px solid rgb(124, 0, 0);
+  background-color: rgb(201, 27, 27);
+}
+
+.blue {
+  border: 1px solid rgb(12, 70, 136);
+  background-color: rgb(0, 94, 201);
+}
+
+.purple {
+  border: 1px solid purple;
+  background-color: rgb(131, 58, 180);
+  background-color: radial-gradient(
+    circle,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 63%,
+    rgba(131, 58, 180, 1) 100%
+  );
+}
+
+.orange {
+  border: 1px solid orange;
+  color: orange;
+  background-color: white;
+}
