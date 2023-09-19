@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #357ba6;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.nav__ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav__item-link {
+    font-size: 22px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.nav__item-link:hover {
+    opacity: 0.75;
+}
+
+/* content */
+.content {
+    width: 100%;
+    padding: 40px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.membership {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.membership__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.membership__text {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.membership__text span {
+    color: #357ba6;
+    font-weight: bold;
+}
+
+.membership__button {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 3px solid #e88132;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #e88132;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.membership__button:hover {
+    background-color: #e88132;
+    color: #fff;
+}
+
+/* contacts */
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 20px;
+}
+
+.contacts__buttons {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contacts__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 23px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border: none;
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.instagram-btn {
+    background-color: #874bf4;
+}
+
+.facebook-btn {
+    background-color: #3578ea;
+}
+
+.youtube-btn {
+    background-color: #ea3223;
+}
+
+.contacts__button:not(:last-child) {
+    margin-right: 25px;
+}
+
+/* testimonial */
+.testimonial {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.testimonial__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.testimonial__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.testimonial__block-title {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #357ba6;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.footer__link:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__link:not(:first-child) {
+    font-weight: bold;
+}
+
+.footer__gyms {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.footer__gyms-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer__gyms-item a {
+    color: #fff;
+}
+
+/* ABOUT US PAGE */
+.about__content {
+    width: 100%;
+    padding: 50px 30px;
+
+}
+
+.about__description-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.about__description-text {
+    max-width: 800px;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.about__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__cards-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.about__blocks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.about__blocks-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about__blocks-item:nth-child(1) {
+    background-image: url(https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg);
+}
+
+.about__blocks-item:nth-child(2) {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production174/d1503/fe0464c4-4deb-48fa-a3dd-5b51ecabf1bb.jpg);
+}
+
+.about__blocks-item:nth-child(3) {
+    background-image: url(https://www.cyclingworldchamps.com/media/tiphd5lt/george-square.jpg?width=1960&height=1103&format=jpg&rnd=133009959494230000);
+}
+
+.about__blocks-title {
+    font-size: 25px;
+    color: #fff;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
