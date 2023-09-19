@@ -107,6 +107,10 @@
 }
 
 /* contacts */
+.contacts {
+    margin-bottom: 40px;
+}
+
 .contacts__title {
     font-size: 40px;
     font-weight: bold;
@@ -152,6 +156,34 @@
 
 .contacts__button:not(:last-child) {
     margin-right: 25px;
+}
+
+/* testimonial */
+.testimonial {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.testimonial__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.testimonial__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.testimonial__block-title {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 /* footer */
