@@ -12,8 +12,13 @@
     padding-left: 30px;
     padding-right: 40%;
     background-color: rgb(61, 108, 194);
+    font-size: 30px;
     color: white;
-    font-size: 25px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
 
 .main {
@@ -101,4 +106,13 @@
 
 .footer p:nth-child(4) {
     padding: 0;
+}
+
+.gym-imgs {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-content: center;
+    width: 300px;
+    height: 500px;
 }
