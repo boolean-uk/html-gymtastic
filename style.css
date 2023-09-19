@@ -88,36 +88,31 @@ strong {
     background-color: #0489bd;
     margin: 0px;
     padding: 20px;
-    
 }
 
 .section-footer {
     margin: 10px;
     margin-top: 10px;
     margin-left: 0px;
+    color: white;
 }
 
-.popular-feature {
-    font-weight: bold;
+.footer ul li a {
     color: white;
     text-decoration: none;
 }
 
-.popular-feature-list {
+.popular-feature-list li {
     color: white;
-    text-decoration: none;
+    list-style-type: none;
 }
 
-.popular-sub-feature {
-    margin-left: 30px;
-    text-decoration: none;
-}
-
-.section-footer,
-.popular-feature,
 .popular-sub-feature {
     color: white;
     list-style-type: none;
-    text-decoration: none;
+}
 
+.popular-sub-feature li {
+    margin-left: 30px;
+    text-decoration: none;
 }
