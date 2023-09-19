@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-align: border box;
+  font-family: sans-serif;
+}
+
+h2,
+strong {
+  color: #0d5f80;
+}
+
+.header {
+  background-color: #077caa;
+  padding: 20px;
+}
+
+.header .logo,
+.header nav,
+.header ul,
+.header ul li {
+  display: inline;
+}
+
+.header .logo {
+  color: white;
+  font-size: 20px;
+}
+
+.header ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  padding: 30px;
+}
+
+.top-section p {
+  margin-bottom: 10px;
+}
+.section-title {
+  margin-bottom: 20px;
+}
+
+.top-section,
+.follow-us-section {
+  padding: 10px;
+}
+
+.get-membership {
+  color: #f77b08;
+  border: solid 2px #f77b08;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.insta,
+.facebook,
+.youtube {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 9px 30px;
+  border-radius: 10px;
+}
+
+.insta {
+  border: solid 2px rgb(154, 55, 225);
+  background-color: rgb(154, 55, 225);
+}
+.facebook {
+  border: solid 2px blue;
+  background-color: blue;
+}
+.youtube {
+  border: solid 2px red;
+  background-color: red;
+}
+
+.footer-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #077caa;
+  color: white;
+}
+
+.list-item{
+  list-style-type: none;
+  font-weight: bold;
+}
+
+
+ul{
+  list-style-type: none;
+  margin-left: 20px;
+}
