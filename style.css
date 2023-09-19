@@ -26,6 +26,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
 .navigation li{
     display: inline-block;
     padding: 10px;
@@ -34,6 +35,7 @@ a {
 
 .main {
     padding: 25px 25px 15px;
+    display: block;
 }
 .title {
     font-size: 32px;
@@ -48,6 +50,7 @@ i have to push the button to the left
     padding: 15px 25px;
     border-radius: 5px;
     display: inline;
+    margin: 15px auto;
     box-sizing: content-box;
 }
 
@@ -57,10 +60,14 @@ i have to push the button to the left
     margin: 15px;
 }
 #membership{
-    border: 3px solid orange;
-    color: orange;
+    display: block;
     font-weight: bold;
+    border: 3px solid orange;
     border-radius: 7px;
+    color: orange;
+    width: fit-content;
+    margin: 15px;
+
 }
 #instagram {
     background-color: blueviolet;
