@@ -26,20 +26,13 @@ strong {
     color: white;
     font-size: 20px;
     margin-right: 20px;
-    display: inline-block;
-}
-
-.header ul {
-    list-style: none;
-}
-
-.header ul li {
-    margin-right: 20px;
+    display: inline;
 }
 
 .header ul a {
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .section-title {
@@ -93,8 +86,9 @@ strong {
 
 .footer {
     background-color: #0489bd;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
+    
 }
 
 .section-footer {
@@ -105,10 +99,18 @@ strong {
 
 .popular-feature {
     font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.popular-feature-list {
+    color: white;
+    text-decoration: none;
 }
 
 .popular-sub-feature {
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .section-footer,
@@ -117,4 +119,5 @@ strong {
     color: white;
     list-style-type: none;
     text-decoration: none;
+
 }
