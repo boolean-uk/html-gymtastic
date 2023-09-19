@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  h2,
+  strong {
+    color: rgb(35, 111, 234);
+  }
+  
+  .header {
+    background-color: rgb(36, 163, 226);
+    padding: 20px;
+  }
+  
+  .header .logo {
+    color: white;
+    font-size: 20px;
+  
+    display: inline-block;
+  }
+  
+  .header nav {
+    display: inline;
+  }
+  
+  .header ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .header ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 30px;
+  }
+  
+  .top-section {
+    padding: 10px;
+  }
+  
+  .get-membership {
+    color: rgb(195, 96, 39);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: solid 1px rgb(248, 122, 48);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .section-title {
+    margin-bottom: 20px;
+  }
+  
+  .social-link {
+    border: solid 1px black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white
+  }
+
+.social-link.instagram {
+    background-color: purple;
+  }
+
+.social-link.facebook {
+  background-color: blue;
+}
+
+.social-link.youtube {
+  background-color: red;
+}
+
+.footer {
+  background-color: rgb(36, 163, 226);
+  height: 200px;
+}
+
+.footer {
+  color: white;
+}
+
+.footer-section {
+  padding: 15px;
+}
+
+.popular-features-list {
+  padding-left: 8px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.popular-sub-feature {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.popular-features {
+  padding-left: 10px;
+}
