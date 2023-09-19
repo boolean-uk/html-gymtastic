@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: rgba(53,123,166,255);
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    padding: 10px;
+}
+.navigation ul {
+    display: inline-block;
+    color: #fff;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.navigation li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.main {
+    padding: 25px 25px 15px;
+}
+.title {
+    font-size: 32px;
+    color: rgb(53,124,164);
+}
+/*
+i have to push the button to the left
+*/
+
+.btn {
+    border: 1px solid black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline;
+    box-sizing: content-box;
+}
+
+.description {
+    font-size: 18px;
+    color: #000;
+    margin: 15px;
+}
+#membership{
+    border: 3px solid orange;
+    color: orange;
+    font-weight: bold;
+    border-radius: 7px;
+}
+#instagram {
+    background-color: blueviolet;
+}
+#facebook {
+    background-color: #3b5998;
+}
+#youtube {
+    background-color: #bb0000;
+}
+
+footer {
+    background-color: rgba(53,123,166,255);
+    color: #fff;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+}
