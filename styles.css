@@ -38,11 +38,7 @@
     padding: 20px;
   }
   
-  .fitness {
-    margin: 20px;
-  }
-  
-  .follow {
+  .fitness, .follow {
     margin: 20px;
   }
   
@@ -51,9 +47,7 @@
     max-width: 500px;
     min-width: 100px;
   }
-  .shadow {
-    box-shadow: 2px 2px 3px rgb(192, 190, 190);
-  }
+
   ul#social-media {
     margin: 0;
     padding: 0;
@@ -106,6 +100,10 @@
     background-color: red;
     border: rgb(190, 1, 1) solid 2px;
     border-radius: 10px;
+  }
+
+  .shadow {
+    box-shadow: 2px 2px 3px rgb(192, 190, 190);
   }
   
   .testimonial {
