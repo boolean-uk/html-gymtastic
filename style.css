@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    background-color: #0492c2;
+    padding: 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    background-color: #0492c2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.logo a{
+    font-size: 35px;
+}
+h2{
+    color:#0492c2;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #0492c2;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 30px;
+}
+.main-container{
+    padding: 40px 50px;
+}
+.container{
+    padding: 40px 50px;
+
+}
+.main-container a{
+    color: orange;
+    text-decoration: none;
+   border: solid orange 2px;
+   padding: 10px;
+   border-radius: 10px;
+}
+.main-container p{
+    padding: 10px 0px;
+
+}
+span{
+    color: #0492c2;
+    font-weight: bold;
+}
+.container a{
+    padding: 15px 30px;
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+    border: groove black 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(168, 144, 168);
+    margin: 5px 10px;
+    
+}
+#instagram{
+    background-color: rgb(149, 84, 255);
+    
+}
+#facebook{
+    background-color: rgb(68, 146, 255);
+}
+#youtube{
+    background-color: rgb(255, 62, 62);
+}
+h4{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.footer ul li{
+    padding:0px 15px;
+    text-decoration: none;
+}
+h5{
+    padding: 2px 0px;
+    font-weight: bold;
+}
+.links{
+    list-style-type: none;
+}
+.paragraph{
+    margin-bottom: 20px ;
+}
