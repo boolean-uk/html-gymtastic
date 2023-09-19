@@ -22,23 +22,37 @@
   p {
     margin: 20px 0;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  } 
+
+  nav {
+    display: inline;
+  }
   
   .logo {
     color: white;
     background-color: rgb(75, 148, 185);
-    padding: 15px;
+    padding: 18px;
   }
   
   .logo span {
     padding: 20px;
   }
+
+  .logo span:hover {
+    background-color: rgb(14, 62, 101, 0.8);
+  }
+
   .popular-features {
     color: white;
     background-color: rgb(75, 148, 185);
     padding: 20px;
   }
   
-  .fitness, .follow {
+  .fitness, .follow, .about-us{
     margin: 20px;
   }
   
@@ -86,17 +100,17 @@
     margin: 0;
   }
   
-  #instagram {
+  .purple-box {
     background-color: blueviolet;
     border: rgb(99, 10, 183) solid 2px;
     border-radius: 10px;
   }
-  #facebook {
+  .blue-box {
     background-color: blue;
     border: rgb(0, 0, 185) solid 2px;
     border-radius: 10px;
   }
-  #youtube {
+  .red-box {
     background-color: red;
     border: rgb(190, 1, 1) solid 2px;
     border-radius: 10px;
@@ -123,3 +137,35 @@
     padding: 2px 5px;
   }
   
+  .our-gyms h2, .our-gyms p {
+    color: white;
+    text-align: center;
+  }
+
+  .our-gyms h3 {
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .our-gyms ul {
+    padding: 0;
+  }
+
+  .our-gyms li {
+    list-style-type: none;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .our-gyms li:nth-of-type(2n-1) {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  section div {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+  }
