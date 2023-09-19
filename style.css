@@ -77,8 +77,10 @@ main > ul.testimonial > li {
   background-color: firebrick;
 }
 
-main > ul.testimonial > li {
+main > ul > li {
   color: white;
+}
+main > ul.testimonial > li {
   text-shadow: 2px 2px 3px greenyellow;
 }
 
