@@ -67,22 +67,19 @@ main > ul.testimonial > li {
   border: 2px solid;
   border-radius: 200px;
   margin-right: 20px;
-
+  
   height: 200px;
   width: 200px;
-
+  
   text-align: center;
   vertical-align: top;
-
+  
   background-color: firebrick;
 }
 
-main > ul > li > h3 {
+main > ul.testimonial > li {
   color: white;
-}
-
-main > ul.testimonial > li > p {
-  color: cornflowerblue;
+  text-shadow: 2px 2px 3px greenyellow;
 }
 
 main > ul.gym-card > li {
