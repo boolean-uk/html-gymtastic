@@ -73,13 +73,43 @@ main > ul.testimonial > li {
   background-color: firebrick;
 }
 
-main > ul.testimonial > li > h3 {
+main > ul > li > h3 {
   color: white;
 }
 
 main > ul.testimonial > li > p {
   color: cornflowerblue;
 }
+
+main > ul.gym-card > li {
+  display: inline-block;
+  padding: 0 0;
+
+  margin-right: 20px;
+  border-radius: 50px 0;
+
+  height: 200px;
+  width: 200px;
+
+  text-align: center;
+  vertical-align: top;
+
+  background-color: cornflowerblue;
+}
+
+main > ul.gym-card img {
+  width: 200px;
+  height: 140px;
+  border-radius: 50px 0 0;
+
+  object-position: 100% 100%;
+  object-fit: cover;
+}
+
+main > ul.gym-card h3 {
+  margin-top: 15px;
+}
+
 .button {
   border: solid rgb(255, 140, 0) 3px;
   color: rgb(255, 140, 0);
