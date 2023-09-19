@@ -111,8 +111,44 @@
 .gym-imgs {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
-    align-content: center;
-    width: 300px;
+    margin: 20px;
+}
+
+.gym-imgs img {
+    width: 500px;
     height: 500px;
 }
+
+.glasgow, .cardiff, .london {
+    position: relative;
+}
+
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 500px;
+    height: 500px;
+    transition: .5s ease;
+    background-color: #2c3b57c9;
+}
+
+.glasgow:hover .overlay, .cardiff:hover .overlay, .london:hover .overlay {
+    opacity: 1;
+  }
+
+
