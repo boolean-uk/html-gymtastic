@@ -1,0 +1,41 @@
+.home {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    width: 1000px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.home > span {
+    padding: 30px;
+}
+
+button {
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+}
+
+.Instagram-button {
+    background-color: blueviolet;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.Facebook-button {
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.Youtube-button {
+    background-color: red;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
