@@ -223,3 +223,75 @@
 .footer__gyms-item a {
     color: #fff;
 }
+
+/* ABOUT US PAGE */
+.about__content {
+    width: 100%;
+    padding: 50px 30px;
+
+}
+
+.about__description-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.about__description-text {
+    max-width: 800px;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.about__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__cards-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #367497;
+    margin-bottom: 25px;
+}
+
+.about__blocks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.about__blocks-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about__blocks-item:nth-child(1) {
+    background-image: url(https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg);
+}
+
+.about__blocks-item:nth-child(2) {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production174/d1503/fe0464c4-4deb-48fa-a3dd-5b51ecabf1bb.jpg);
+}
+
+.about__blocks-item:nth-child(3) {
+    background-image: url(https://www.cyclingworldchamps.com/media/tiphd5lt/george-square.jpg?width=1960&height=1103&format=jpg&rnd=133009959494230000);
+}
+
+.about__blocks-title {
+    font-size: 25px;
+    color: #fff;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
