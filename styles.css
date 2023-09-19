@@ -20,8 +20,6 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
-
-/* --------------Header---------------- */
 html {
   background: var(--bg-color);
   font-family: var(--font-family);
@@ -32,6 +30,7 @@ a {
   font-size: 20px;
   font-weight: 500;
 }
+/* --------------Header---------------- */
 .heading {
   display: flex;
   flex-direction: row;
@@ -66,7 +65,6 @@ a {
   text-transform: capitalize;
   margin: 2rem 0rem;
 }
-
 .top-text p {
   color: #222;
   font-weight: bold;
