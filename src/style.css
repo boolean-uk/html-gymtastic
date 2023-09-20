@@ -1,0 +1,174 @@
+/* *, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    } */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(40, 110, 140);
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+    margin: 10px;
+    
+}
+
+.navbar ul a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul li span{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.section1 {
+    padding: 5px 40px
+}
+
+.section1 h1{
+    color: rgb(40, 110, 140);
+    font-size: 30px;
+}
+
+.section1 p span{
+    color: rgb(40, 110, 140);
+    font-weight: bold;
+}
+
+.button {
+    font-size: 15px;
+    border: 2px solid rgb(233, 126, 11);
+    color: rgb(233, 126, 11);
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.section2 {
+    padding: 5px 40px
+}
+
+.section2 h1{
+    color: rgb(40, 110, 140);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section2 button {
+    margin-right: 30px;
+}
+
+.instagram {
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid blueviolet;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+}
+
+.facebook {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(27, 144, 216);
+    border: 2px solid rgb(27, 144, 216);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+}
+
+.youtube {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+}
+
+
+/* SECTION 3 COMMENTED OUT FOR NOW LATER I WILL CREATE CARDS */
+
+/* .section3 {
+    padding: 5px 40px;
+    margin-top: 20px;
+}
+
+.features {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    background-color: rgb(52, 124, 191);
+    color: white;
+}
+
+.cards-h3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cards div {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+footer {
+    background-color:  rgb(40, 110, 140);
+    color: white;
+    padding: 10px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: white;
+}
