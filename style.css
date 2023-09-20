@@ -27,13 +27,17 @@ a {
     color: #fff;
 }
 
+span {
+    color: rgb(53,124,164);
+}
+
 .navigation li{
     display: inline-block;
     padding: 10px;
     margin: 0 10px;
 }
 
-.main {
+.main , .testimonial {
     padding: 25px 25px 15px;
     display: block;
 }
@@ -41,9 +45,6 @@ a {
     font-size: 32px;
     color: rgb(53,124,164);
 }
-/*
-i have to push the button to the left
-*/
 
 .btn {
     border: 1px solid black;
