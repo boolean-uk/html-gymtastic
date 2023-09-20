@@ -1,0 +1,12 @@
+.gymnastic {
+    background-color:rgb(0, 128, 255);
+    width: 150px;
+
+}
+.follow {
+    color: blue;
+
+}
+.follow > p {
+    background-color: purple
+}
