@@ -43,6 +43,10 @@ strong {
     margin-bottom: 10px;
 }
 
+.main {
+    height: calc(100% -120px)
+}
+
 .top-section,
 .follow-us-section {
     padding: 20px;
@@ -115,4 +119,8 @@ strong {
 .popular-sub-feature li {
     margin-left: 30px;
     text-decoration: none;
+}
+
+.footer > ul > li {
+    font-weight: bold;
 }
