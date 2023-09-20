@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    font-family:sans-serif ;
+}
+body{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    background-color: ;
+    color: white;
+    padding: 20px;
+}
+
+header li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+main h3{
+    color: rgb(red, green, blue);
+}
+main{
+    margin-left: 20px;   
+}
+
+main > p:nth-of-type(1){
+    margin: 10px 0;
+}
+
+main > p:nth-of-type(2) > span{
+    color: blue;
+}
+
+main > p:nth-of-type(3) > span {
+    display: inline-block;
+    color: rgb(red, green, blue);
+    border: 1px solid rgb(255, 165, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0 25px 0;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.social-media > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid rgba(red, green, blue, alpha);
+}
+.social-media > li.instagram{
+    background-color: violet;
+    color: white;
+}
+.social-media > li.facebook{
+    background-color: blue;
+    color: white;
+}
+.social-media > li.youtube{
+    background-color: red;
+    color: white;
+}
+
+footer{
+background-color: rgb(red, green, blue);
+margin: top;
+}
+
+footer > ul{
+    list-style: none;
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+}
+
+footer ul li {
+margin-bottom: 3px;
+}
+
+footer > ul > li p{
+    padding: 20px 0 20px 0;
+}
