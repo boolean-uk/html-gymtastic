@@ -1,0 +1,133 @@
+
+*{
+
+    margin: 0;
+    font-family:sans-serif ;
+}
+body{
+    width: 100;
+    display: grid;
+    background-color: white;
+    flex-direction: column;
+}
+
+.header{
+    display: inline;
+    border: 1px solid black;
+    background-color: rgb(41, 130, 163);
+    color: white;
+    padding: 20px;   
+}
+
+button{
+    background-color: white;
+    margin-right: 5%;
+
+}
+
+
+h3{
+    color: lightblue;
+}
+
+main h3{
+    color: rgb(red, green, blue);
+}
+main{
+    margin-left: 20px;   
+}
+
+main > p:nth-of-type(1){
+    margin: 10px 0;
+}
+
+main > p:nth-of-type(2) > span{
+    color: rgb(41, 130, 163);
+}
+
+main > p:nth-of-type(3) > span {
+    display: inline-block;
+    color: rgb(red, green, blue);
+    border: 1px solid rgb(255, 165, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0 25px 0;
+}
+
+h2{
+color: rgb(109, 109, 220); 
+}
+
+.social-media{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.GetMembership{
+    margin: 2%;
+    
+    font-size: 10px;
+    border: 1px solid orange;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.social-media > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid rgba(red, green, blue, alpha);
+}
+.Instagram{
+    display: inline-block;
+    background-color: violet;
+    color: white;
+    list-style: none;
+    border:  1px solid black;
+}
+.Facebook{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    list-style: none;
+    border: 1px solid black;
+}
+.Youtube{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    list-style: none;
+    border: 1px solid black;
+}
+
+footer{
+border: 1px solid black;
+background-color: rgb(41, 130, 163);
+margin-top: 10px;
+color: white;
+
+}
+
+p {
+margin-top: 20px;
+margin-left: 3%;
+}
+
+footer p{
+ margin-bottom: 1%;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 1%;
+}
+
+footer > ul > li p{
+    padding: 20px 0 20px 0;
+}
