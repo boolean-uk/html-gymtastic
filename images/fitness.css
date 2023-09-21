@@ -1,12 +1,15 @@
 .gymnastic {
     background-color:rgb(0, 128, 255);
     width: 150px;
+ /*for blocks*/   
+    outline: 3px solid red;
 
+}
+
+.footer {
+    background-color:rgb(0, 128,255);
+    outline: 3px solid blue;
 }
 .follow {
-    color: blue;
-
-}
-.follow > p {
-    background-color: purple
+    color: rgb(0, 128,255);
 }
