@@ -1,8 +1,10 @@
-.gymnastic {
+header {
     background-color:rgb(0, 128, 255);
-    width: 150px;
+    width:auto;
+    height: 50px;
+    margin-bottom: 10px;
  /*for blocks*/   
-    outline: 3px solid red;
+
 
 }
 
@@ -12,4 +14,11 @@
 }
 .follow {
     color: rgb(0, 128,255);
+}
+h4 {
+    color:rgb(0, 128,255);
+}
+.get {
+    outline: 3px solid orange;
+    
 }
