@@ -1,0 +1,163 @@
+.container {
+    display: grid;
+    height: 750px;
+
+
+    grid-template: 
+    "header                header                 header" 100px
+    "leftgrid               main                  rightgrid"  auto
+    "footer               footer                 footer" auto /
+    150px                1fr                      150px;
+}
+
+/* EVERYTHING ABOUT THE HEADER AND THE STYLING  */
+header {
+    color: white;
+    display: flex;
+    grid-area: header;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+header > div {
+    margin: 0 30px;
+}
+
+
+
+                            /* EVERYTHING ABOUT THE LEFT GRID  */
+.leftside-grid {
+    grid-area: leftgrid;
+}
+
+
+
+
+                        /*  EVERYTHIN ABOUT THE MIAN CONTENT AN DTHE STYLING  */
+.mainside-grid {
+    grid-area: main;
+}
+
+
+.mainside-grid h1 {
+    color: lightblue;
+}
+
+.mainside-grid h2 {
+    color: lightblue;
+}
+
+
+.get-membership {
+    display: inline-block; 
+    border: solid 5px lightgreen;
+
+    padding: 15px;
+    border-radius: 15px;
+    color: lightgreen ;
+}
+
+.pages {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: red;
+    padding: 15px 70px;
+    border-radius: 15px;
+    color: white;
+}
+
+.youtube {
+    background-color: lightblue;
+}
+
+.instagram {
+    background-color: lightseagreen;
+}
+
+strong {
+    font-size: 30px;
+    color: white;
+}
+
+
+                                 /* EVERYTHING ABOUT THE RIGTSIDE GRID AND IT STYLING  */
+.rightside-grid {
+    grid-area: rightgrid;
+}
+
+
+
+
+
+
+
+                                    /* EVERYTHING ABOUT THE FOOTER AND THE STYLING  */
+
+footer {
+     display: grid;
+     background-color: lightblue;
+     grid-area: footer;
+
+     grid-template-columns: 100px 1fr  100px;
+}
+
+footer > div:nth-of-type(2) > p {
+    display: inline;
+    color: white;
+}
+
+.popular {
+    margin: 10px 0px;
+}
+
+footer > div:nth-of-type(2) ul {
+    display: inline;
+    list-style: none;
+}
+
+footer > div:nth-of-type(2) li {
+    margin-left: 10px;
+    
+}
+
+
+
+/* ALL MY MEDIA QUERY HERE  */
+@media screen and (max-width: 700px) {
+    .container {
+        display: grid;
+        height: 800px;
+    
+    
+        grid-template: 
+        "header                header                 header" 100px
+        "leftgrid               main                  rightgrid"  auto
+        "footer               footer                 footer" auto /
+        50px                1fr                      50px;
+    }
+    
+    footer {
+        display: grid;
+        background-color: lightblue;
+        grid-area: footer;
+   
+        grid-template-columns: 20px 1fr  20px;
+   }
+
+   .get-membership {
+    border: solid 5px lightgreen;
+    border-radius: 15px;
+    color: red ;
+    width: 100%;
+    text-align: center;
+    max-width: 415px;
+   }
+
+   .pages {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+}
