@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: rgba(53,123,166,255);
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    padding: 10px;
+}
+.navigation ul {
+    display: inline-block;
+    color: #fff;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span {
+    color: rgb(53,124,164);
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.main , .testimonial {
+    padding: 25px 25px 15px;
+    display: block;
+}
+.title {
+    font-size: 32px;
+    color: rgb(53,124,164);
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline;
+    margin: 15px auto;
+    box-sizing: content-box;
+}
+
+.description {
+    font-size: 18px;
+    color: #000;
+    margin: 15px;
+}
+#membership{
+    display: block;
+    font-weight: bold;
+    border: 3px solid orange;
+    border-radius: 7px;
+    color: orange;
+    width: fit-content;
+    margin: 15px;
+
+}
+#instagram {
+    background-color: blueviolet;
+}
+#facebook {
+    background-color: #3b5998;
+}
+#youtube {
+    background-color: #bb0000;
+}
+
+footer {
+    background-color: rgba(53,123,166,255);
+    color: #fff;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+}
