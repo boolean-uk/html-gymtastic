@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navigation_bar {
+    color: white;
+    background-color: #357ba6;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.membership_button {
+    text-align: center;
+    color: #e88132;
+    background-color: white;
+    border-color: #e88132;
+    border-radius: 20px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    width: 220px;
+    font-size: 14px;
+
+}
+
+.main_text {
+    margin-left: 50px;
+}
+
+.main_text h1 {
+    font-size: 2em;
+    color: #357ba6;
+    margin-bottom: 10px;
+}
+
+.main_text span {
+    color: #357ba6;
+    font-weight: bold;
+}
+
+.main_text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: orangered;
+    border-radius: 20px;
+    border: solid 1px;
+    padding: 15px 30px 15px 30px;
+    width: 200px;
+    height: auto;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.instagram {
+    background-color: #874bf4;
+}
+
+.facebook {
+    background-color: #3578ea;
+}
+
+.youtube {
+    background-color: #ea3223;
+}
+
+.info_bar {
+    color: white;
+    background-color: #357ba6;
+    padding: 30px;
+}
+
+.info_bar h2 {
+    margin: 10px 0 10px 0;
+}
+
+.info_bar h3 {
+    margin: 5px 0 5px 0;
+}
+
+.info_bar ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.testimonials {
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.testimonials li {
+    display: inline-block;
+    vertical-align: top;
+    height: 170px;
+    width: 40ch;
+    border: black solid 6px;
+    color: #357ba6;
+    margin-right: 40px;
+    background-color: lightgrey;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.card-collection {
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.gym-card img {
+    max-width: 300px;
+    border:black  5px solid;
+}
+.gym-card{
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    width: 40ch;
+    border: black solid 6px;
+    color: white;
+    margin-right: 40px;
+    background-color: #357ba6;
+    font-weight: 600;
+    padding: 20px;
+}
