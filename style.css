@@ -99,6 +99,25 @@ padding: 20px;
     background-color: #E98981;
 }
 
+.testimonial-section {
+    margin-top: 50px;
+  }
+
+  .testimonial {
+    margin-bottom: 30px;
+  }
+
+  .testimonial blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
