@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: #357ba6;
+}
+
+.header * {
+    padding: 15px;
+    display: inline-block;
+}
+
+.header p a {
+    color: white;
+    text-decoration: none;
+}
+
+.header p a:hover{
+    color: black;
+}
+
+.footer {
+    color: white;
+    background-color: #357ba6;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    position: relative;
+    margin: 25px;
+    top: 30px;
+    font-weight: lighter;
+}
+
+.footer .gyms-near {
+    position: relative;
+    margin: 25px;
+    top: 30px;
+}
+
+.footer ol {
+    position: relative;
+    margin: 8px;
+    list-style-type: none;
+    top: 6px;
+}
+
+.footer .fitness {
+    position: relative;
+    margin: 25px;
+    bottom: 18px;
+}
+
+.footer .personal {
+    position: relative;
+    margin: 25px;
+    bottom: 42px;
+}
+
+.footer .gym-mermbership {
+    position: relative;
+    margin: 25px;
+    bottom: 65px;
+}
+
+.about-information h1 {
+    color: #367497;
+    margin: 25px;
+
+}
+
+.about-information h3 {
+    margin: 25px;
+}
+
+.about-information ol a {
+    display: block;
+    line-height: 50px;
+}
