@@ -1,0 +1,94 @@
+
+
+* {
+    display: inline-block;
+    margin: 0px;
+    
+}
+
+
+header {
+    display: block;
+}
+
+main {
+    display: block;
+}
+p1{
+    background-color:#00FFFF ;
+    margin: 0px;
+    padding-right: 1000px;
+    font-size: 14px;
+
+}
+
+.box-one {
+    background-color: #00FFFF;
+    padding: 65px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.box-two {
+    background-color: #00FFFF;
+    padding: 55px;
+    border-right: 100px;
+    margin:0px;
+    
+}
+
+.box-three {background-color:white;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 25px;
+    color: orange;
+    border: 1px solid orange;
+    width: 140px;
+    border-radius: 18px;
+    margin-top: 50px;
+    
+}
+.box-four{
+    color: white;
+    background-color: purple;
+    font-size: 30px;
+    border: 10px;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 18px;
+}
+.box-five{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    border: 10px;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 18px;
+}
+
+.box-six{
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    border: 10px;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 18px;
+}
+
+p3{
+    font-size: 40px;
+    color: blue;
+    padding: 30px;
+}
+
+main2{
+    background-color: #00FFFF;
+    padding-right: 10000px;
+    margin: 0px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+p6{}
