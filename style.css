@@ -1,7 +1,5 @@
 * {
-    /* background-color: grey; */
-    font-family: sans-serif;
-    /* background-color: white; */
+    font-family: sans-serif;   
     margin: 0;
 }
 
@@ -9,7 +7,7 @@ header {
     background-color: #357ba6;
     padding-top: 30px;
     padding-bottom: 35px;
-    padding-left: 25px;
+    /* padding-left: 5px; */
     /* margin: 0; */
 }
 
@@ -39,9 +37,10 @@ body h1 {
     padding: 50px;
 }
 
-.why {
+.why,
+.who {
     padding-left: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 30px;
 }
 
@@ -61,10 +60,10 @@ body h1 {
     margin-left: 50px;
     margin-bottom: 50px;
     padding: 20px 50px;
-    border: 3px solid #e87e2c;
+    border: 4px solid #e87e2c;
     border-radius: 20px;
     font-size: 25px;
-    font-weight: 195;
+    font-weight: 500;
     color: #e87e2c;
     background-color: white;
 }
@@ -89,24 +88,54 @@ body h1 {
     color: white;
     box-shadow: 5px 5px 10px lightgray;
 }
-.social .youtube {
+
+.social button:nth-of-type(2) {
+    background-color: #3778e8;
+}
+
+.social button:nth-of-type(3) {
     background-color: #ea3223;
 }
+
 
 .testimonials div {
     display: inline-block;
     background-color: #828b88;
     color: white;
-    /* margin: 20px 30px; */
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 25px 40px 15px;
+    /* margin-bottom: 40px;
     margin-right: 20px;
-    margin-left: 15px;
+    margin-left: 15px; */
     padding: 50px;
     font-size: 18px;
     font-style: italic;
     text-align: center;
-    line-height: 30px;    
+    line-height: 30px;
+}
+
+.testimonials section {
+    font-style: normal;
+}
+
+
+.gym-locations div {
+    display: inline-block;
+    background-color: #a9aead;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left: 25px;
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.gym-locations section {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 
