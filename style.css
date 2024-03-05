@@ -1,0 +1,97 @@
+title { display: none;}
+*{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgb(64, 154, 227);
+    display: block;
+    color: white;
+}
+
+header p{
+    font-size: 20px;
+    margin: 30px 32px;
+}
+
+header h2{
+    margin-left: 22px;
+}
+
+main {
+    font-size: 20px;
+    display: block;
+    margin-left: 28px;
+}
+main h1 {
+    color: rgb(64, 154, 227);
+}
+
+main span {
+    color: rgb(64, 154, 227);
+}
+
+main button {
+    border-color: orange;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+section {
+    margin: 20px 28px;
+    display: block;
+    color: rgb(64, 154, 227);
+}
+
+section button {
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px 2px;
+}
+
+.Insta {
+    background-color: #962fbf ;
+}
+
+.FB {
+    background-color:  #316FF6;
+}
+
+.YT {
+    background-color: #CD201F;
+}
+
+footer {
+    background-color: rgb(64, 154, 227);
+    color: white;
+    display: block;
+    padding: 25px 0px;
+}
+
+footer .learn_more li {
+    margin-left: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: block;
+}
+footer .list li {
+    margin-left: 45px;
+    font-weight: normal;
+    list-style: none;
+    display: block;
+}
+footer p {
+    margin: 7px 20px;
+    display: block;
+    font-size: 20px;
+}
