@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: #357ba6;
+}
+
+.header * {
+    padding: 15px;
+    display: inline-block;
+}
+
+.inside h1 {
+    color: #367497;
+    margin: 25px;
+
+}
+
+.inside p {
+    margin: 25px;
+}
+
+.inside p span {
+    font-weight: bold;
+    color: #4485ad;
+}
+
+.fake-button {
+    color: #eb904b;
+    border: 2.5px solid #eb904b;
+    margin: 25px;
+    margin-top: -8px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.social-media h1 {
+    color: #367497;
+    margin: 25px;
+    margin-top: 15px;
+}
+
+.social-media #instagram {
+    color: white;
+    background-color: #874bf4;
+    margin: 25px;
+    padding: 15px 40px;
+    border-radius: 12px;
+    border: 1px solid #5c33a7;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    box-shadow: 2px 2px 4px #c1c2c2;
+}
+
+.social-media #facebook {
+    color: white;
+    background-color: #3578ea;
+    padding: 15px 40px;
+    border-radius: 12px;
+    border: 1px solid #2b57a4;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    box-shadow: 2px 2px 4px #c1c2c2;
+}
+
+.social-media #youtube {
+    color: white;
+    background-color: #ea3223;
+    margin: 25px;
+    padding: 17px 40px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    box-shadow: 2px 2px 4px #c1c2c2;
+}
+
+.footer {
+    color: white;
+    background-color: #357ba6;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    position: relative;
+    margin: 25px;
+    top: 30px;
+    font-weight: lighter;
+}
+
+.footer .gyms-near {
+    position: relative;
+    margin: 25px;
+    top: 30px;
+}
+
+.footer ol {
+    position: relative;
+    margin: 8px;
+    list-style-type: none;
+    top: 6px;
+}
+
+.footer .fitness {
+    position: relative;
+    margin: 25px;
+    bottom: 18px;
+}
+
+.footer .personal {
+    position: relative;
+    margin: 25px;
+    bottom: 42px;
+}
+
+.footer .gym-mermbership {
+    position: relative;
+    margin: 25px;
+    bottom: 65px;
+}
+
+.testimonial h1 {
+    margin: 25px;
+    display: inline-block;
+    margin-top: 38px;
+    margin-bottom: -20px;
+    color: #367497;
+}
+
+.testimonial p {
+    margin: 25px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+}
+
+.header p a {
+    color: white;
+    text-decoration: none;
+}
+
+.header p a:hover{
+    color: black;
+}
+
+.footer .gyms-near a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .gyms-near a:hover {
+    color: black;
+}
