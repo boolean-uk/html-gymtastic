@@ -1,0 +1,123 @@
+header {
+    display: flex;
+    background-color: #357BA6;
+    justify-content: center;
+    align-items: center;
+}
+
+header span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+h1 {
+    color: #357BA6;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav a {
+    padding: 15px;
+    color: #fff;
+    
+}
+
+main {
+padding: 20px;
+}
+
+.discount-link {
+    color: #357BA6; 
+    font-weight: 800;
+     
+  }
+  
+
+.main-button {
+    display: inline-block;
+    padding: 18px 50px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    outline: 0.5px solid #1F1F1F;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+
+}
+.solid-button {
+    font-weight: 800;
+}
+
+.orange-button {
+    background-color: #FFFFFF;
+    box-shadow: none;
+    color: #E78435;
+    outline: 3px solid #E78435;
+    margin-bottom: 20px;
+}
+.orange-button:hover {
+    background-color: #E79F65;
+}
+
+.purple-button {
+    background-color: #874CF4;
+}
+.purple-button:hover {
+    background-color: #AD87F5;
+}
+
+.blue-button {
+    background-color: #3677EA;
+}
+.blue-button:hover {
+    background-color: #81A7EB;
+}
+
+.red-button {
+    background-color: #E93223;
+}
+.red-button:hover {
+    background-color: #E98981;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: 600;
+  }
+ul li ul {
+    margin-left: 20px;
+    font-weight: 400;
+} 
+.footer {
+    background-color: #357BA6;
+    padding: 25px;
+    width: 100%;
+    height: auto;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+
+
