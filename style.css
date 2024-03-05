@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: rgb(47, 107, 236);
+    padding: 15px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+header * {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* p {
+    font-weight: 500;
+} */
+
+h2 {
+    color:rgb(47, 107, 236);
+    font-weight: 1000;
+    font-size: 30px;
+    /* display: inline-block; */
+}
+
+span {
+    color:rgb(47, 107, 236);
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+button {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: black 1px solid;
+    margin-right: 15px;
+    font-size: larger;
+    font-weight: 550;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+footer p {
+    font-weight: 600;
+}
+
+main > div + div > h2 {
+    margin-bottom: 8px;
+}
+
+#Membership {
+    color: orange;
+    border: orange solid 2px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#Instagram {
+    background-color: blueviolet;
+}
+
+#Facebook {
+    background-color: rgb(71, 110, 241);
+}
+
+#YouTube {
+    background-color: red;
+}
+
+
+
