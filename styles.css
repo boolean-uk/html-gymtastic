@@ -55,7 +55,12 @@
     max-width: 100ch;
 }
 
-.buttons {
+.main_text li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+button {
     display: inline-block;
     font-size: 30px;
     margin-right: 20px;
