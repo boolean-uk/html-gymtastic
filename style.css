@@ -1,0 +1,130 @@
+/* Global Style */
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+/********************  HEADER ********************/
+
+header {
+  background-color: #357ba6;
+
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+header a {
+  color: #f5f8fa;
+  text-decoration: none;
+
+  margin-right: 40px;
+}
+
+#logo {
+  font-size: 35px;
+  font-weight: 700;
+
+  margin-right: 50px;
+}
+
+/********************  MAIN ********************/
+
+main {
+  padding-left: 50px;
+}
+
+h1,
+h2 {
+  color: #367497;
+  font-size: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+main p {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Shared Style */
+
+button {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+
+  background-color: white;
+
+  padding: 20px 40px;
+  margin: 0 30px 25px 0px;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: #e88132;
+  border-radius: 15px;
+
+  box-shadow: 3px 3px 10px 0px rgba(0 0 0 / 30%);
+
+  cursor: pointer;
+}
+
+.membership {
+  color: #e88132;
+  font-weight: normal;
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+
+  box-shadow: none;
+  border-width: 4px;
+}
+
+.instagram {
+  background-color: #874bf4;
+  border-color: #5c33a7;
+}
+
+.facebook {
+  background-color: #3578ea;
+  border-color: #2552a1;
+}
+.youtube {
+  background-color: #ea3223;
+  border-color: #a12318;
+}
+
+/********************  FOOTER ********************/
+
+footer {
+  color: #f5f8fa;
+  background-color: #357ba6;
+  padding: 30px;
+}
+
+footer h3 {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.first-item {
+  font-weight: normal;
+  padding-left: 40px;
+}
