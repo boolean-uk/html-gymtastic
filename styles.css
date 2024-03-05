@@ -55,7 +55,7 @@
     max-width: 100ch;
 }
 
-.main_text li{
+.main_text li {
     list-style-type: none;
     display: inline-block;
 }
@@ -140,9 +140,10 @@ a {
 
 .gym-card img {
     max-width: 300px;
-    border:black  5px solid;
+    border: black 5px solid;
 }
-.gym-card{
+
+.gym-card {
     display: inline-block;
     vertical-align: top;
     height: auto;
