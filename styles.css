@@ -46,11 +46,13 @@
 .main_text span {
     color: #357ba6;
     font-weight: bold;
+
 }
 
 .main_text p {
     font-size: 20px;
     margin-bottom: 15px;
+    max-width: 100ch;
 }
 
 .buttons {
