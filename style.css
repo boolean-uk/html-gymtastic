@@ -1,4 +1,6 @@
-title { display: none;}
+title { display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -69,6 +71,34 @@ section button {
 
 .YT {
     background-color: #CD201F;
+}
+
+.testimonial {
+    display: block;
+    margin: 20px 28px;
+}
+
+.testimonial h1 {
+    color: rgb(64, 154, 227);
+    display: block;
+}
+
+.testimonial img {
+    /* float: left; */
+    border-radius: 120px;
+    margin: 30px
+}
+
+.testimonial .name {
+    margin: 10px 5px 2px;
+    float: left;
+    font-weight: bold;
+}
+
+.testimonial p {
+    margin: 120px 600px 2px 0px;
+    float: right;
+    font-style: italic;
 }
 
 footer {
