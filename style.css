@@ -97,6 +97,10 @@ body h1 {
     background-color: #ea3223;
 }
 
+.social a {
+    text-decoration: none;
+    color: white;
+}
 
 .testimonials div {
     display: inline-block;
