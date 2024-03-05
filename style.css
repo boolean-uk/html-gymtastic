@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #357ba6;
+    color: white;
+
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+
+    padding: 0px 20px 0px 0px;
+}
+
+header h1, header nav, header nav ul a, header nav ul li {
+    display: inline-block;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+
+    padding: 0px 20px;
+}
+
+/* MAIN */
+main {
+    margin: 20px;
+}
+
+main h2 {
+    color: #357ba6;
+    margin: 0px 0px 20px 0px;
+}
+
+main p {
+    margin: 0px 20px 20px 0px;
+}
+
+main p span {
+    color: #357ba6;
+
+    font-weight: bold;
+}
+
+.membership {
+    color: #e88132;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: inline-block;
+
+    padding: 10px 20px;
+    margin: 0px 20px 20px 0px;
+
+    border: 2px solid #e88132;
+    border-radius: 10px;
+}
+
+.follow-us-buttons {
+    margin-bottom: 30px;
+}
+
+.instagram, .facebook, .youtube {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+.instagram {
+    background-color: #874bf4;
+    border: 1px solid #5c33a7;
+    border-radius: 10px;
+
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+.facebook {
+    background-color: #3578ea;
+    border: 1px solid #2756aa;
+    border-radius: 10px;
+
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+.youtube {
+    background-color: #ea3223;
+    border: 1px solid #b7271b;
+    border-radius: 10px;
+
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+/* MAIN - About Us page */
+.london, .cardiff, .glasgow {
+    display: inline-block;
+    padding: 80px 50px 80px 50px;
+    margin: 0px 30px 20px 0px;
+
+    background-color: rgb(255, 255, 160);
+    
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #357ba6;
+    color: white;
+
+    padding: 20px
+}
+
+footer h3 {
+    padding: 0px 0px 20px 0px;
+
+    font-weight: normal;
+}
+
+footer ul {
+    list-style-type: none;
+
+    font-weight: bold;
+}
+
+.gyms {
+    padding: 0px 0px 0px 10px;
+
+    font-weight: normal;
+}
