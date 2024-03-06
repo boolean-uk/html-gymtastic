@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 80px;
+    background: #fff;
+    padding: 0px;
+    color: #333;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    color: #f8f8f8;
+    font-weight: bold;
+    
+  }
+  
+  .logo {
+    color: white; 
+    text-decoration: none;
+    font-size: 1.30em;
+    margin: 3px;
+    font-weight: bold; 
+   
+  }
+  
+  .nav-items {
+    color: #fcfafa;
+    text-decoration: none;
+    padding: 1px 300px;
+    margin: 0; 
+    position: relative;
+    top: -35px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  
+  
+  
+ 
+  header {
+    font-size: 1.7em;
+    color: hwb(0 97% 3%);
+    margin-bottom: 1.0em;
+    background-color: rgb(90, 150, 200);
+    
+    
+  }
+  
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+ 
+  .cta-button {
+    display: inline-block;
+    background-color: #faf8f4;
+    color: #f39005;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .cta-button:hover {
+    background-color: #cc8400;
+  }
+  
+
+  .social-media a {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    margin: 0 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .social-media a.instagram {
+    background: #c13584;
+  }
+  
+  .social-media a.facebook {
+    background: #3b5998;
+  }
+  
+  .social-media a.youtube {
+    background: #ff0000;
+  }
+  
+ 
+  .footer a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    color: white;
+    font-weight: bold;
+  }
