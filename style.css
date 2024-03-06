@@ -1,0 +1,84 @@
+.header{
+    padding: 2%;
+    background-color: rgb(44, 127, 182);
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.subheading{
+    color:  rgb(44, 127, 182);
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.membership {
+    background-color:white;
+    color: darkorange;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    border-color: darkorange;
+    border-radius: 12px;
+}
+.follow-us{
+        color:  rgb(44, 127, 182);
+        font-size: 40px;
+        font-family: sans-serif;
+}
+.instagram{
+    background-color:rgba(148, 36, 193, 0.732);
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.Facebook{
+    background-color:rgba(30, 93, 230, 0.732);
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.YouTube{
+    background-color:red;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.ending{
+    padding: 2%;
+    background-color: rgb(44, 127, 182);
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+}
