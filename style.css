@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header'
+        'main'
+        'footer'
+}
+.header {
+    display: flex;
+    background-color: #347BA7;
+    color: azure;
+    padding: 20px 0px 20px 25px;
+    align-items: center;
+    grid-area: header;
+}
+.header ul a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    font-size: 20px;
+}
+.menu li {
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+}
+.fitness {
+    padding: 40px 0px 0px 35px;
+    color: #367596;
+    font-size: 35px;
+    font-weight: bold;
+}
+.main p {
+    padding: 35px 0px 0px 35px;
+    font-size: 20px;
+}
+.main .p-two {
+    padding: 20px 0px 40px 35px;
+    font-size: 20px;    
+}
+.main .p-two span {
+    padding: 0px 1px 0px 5px;
+    font-size: large;
+    color: #347BA7;
+    font-weight: bold;
+}
+
+.main .button {
+    padding: 15px 30px 15px 30px;
+    outline: none;
+    border: 2px solid #e88132;
+    border-radius: 10px 10px;
+    margin: -10px 1050px 30px 40px;
+    text-align: center;
+}
+
+.main .button a {
+    color: #e88132;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.follow-us p {
+    padding: 10px 0px 0px 40px;
+    color: #367596;
+    font-size: 35px;
+    font-weight: bold;
+}
+.social-media {
+    display: flex;
+    padding: 0px 0px 0px 40px;
+    margin: 15px 0px 0px 0px;
+    align-items: center;
+}
+.social-media li {
+    padding: 0px 25px 0px 25px;
+    color: black;
+    margin: 0px 0px 0px -20px;
+    list-style: none;
+}
+
+.social-media .button1 {
+    background-color: #874a85;
+    outline: none;
+    border: 2px solid #6b2c69;
+    border-radius: 14px 14px;
+    text-align: center;
+    padding: 13px 35px 13px 35px;
+    
+}
+.social-media .button1 a {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.social-media .button2 {
+    background-color: #3478eb;
+    outline: none;
+    border: 2px solid #1b4999;
+    border-radius: 14px 14px;
+    text-align: center;
+    padding: 13px 35px 13px 35px;
+    
+}
+
+.social-media .button2 a {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.social-media .button3 {
+    background-color: #eb3323;
+    outline: none;
+    border: 2px solid #96170c;
+    border-radius: 14px 14px;
+    text-align: center;
+    padding: 13px 35px 13px 35px;
+    
+}
+
+.social-media .button3 a {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+.footer {
+    background-color: #347BA7;
+    grid-area: footer;
+    padding: 35px 0px 35px 30px;
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer1 {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 21px;
+}
+.footer1 li {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.footer1 a {
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+}
