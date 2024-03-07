@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+nav {
+    background-color: rgb(53, 123, 166)
+}
+
+.nav-button {
+    display:inline-block;
+    color: white;
+    margin: 25px 30px 25px 30px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white
+}
+
+.location-card-container {
+    display: inline-block;
+    color: rgb(53, 123, 166);
+    background-color: white;
+}
+
+img {
+    width: 120px;
+    height: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(53, 123, 166)
+}
+
+.midsection h2 {
+    margin: 30px 0px 20px 40px;
+    color: rgb(53, 123, 166);
+    font-size: 40px;
+}
+
+.midsection p {
+    margin: 30px 0px 20px 40px;
+}
+
+.midsection strong {
+    color: rgb(53, 123, 166);
+}
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 30px;
+    color: white;
+}
+
+footer h3 {
+    font-weight: 400;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.about-us h2 {
+    margin: 30px 0px 20px 40px;
+    color: rgb(53, 123, 166);
+    font-size: 40px;
+}
+
+.about-us p {
+    margin: 30px 0px 20px 40px;
+}
+
+.location-card {
+    display: inline-block;
+    margin: 30px 0px 30px 40px;
+    border: 2px solid rgb(53, 123, 166);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.225);
+}
+
+.location-card p {
+    font-size: 10px;
+}
+
+.location-card img {
+    height: 100px;
+
+}
