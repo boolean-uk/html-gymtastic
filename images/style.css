@@ -1,0 +1,104 @@
+
+.top {
+    background-color: rgb(0, 200, 255);
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.box-one {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.box-two {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.box-three {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.box-four {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.main-box {
+    display: block;
+}
+
+.main-box h1 {
+color:  rgb(0, 200, 255);
+text-align: left;
+}
+
+.main-box p {
+    text-align: left;
+    font: sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.social-one {
+    padding: 50px;
+    margin: 4px 2px;
+    display: inline-block;
+    background-color: purple;
+    border: none;
+    color: black;
+
+    cursor: pointer;
+
+}
+
+.social-two {
+    padding: 50px 50px 50px 50px;
+    margin: 20px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.social-three {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    background-color: red;
+}
+
+.member {
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: rgb(0, 200, 255);
+    text-align: left;
+    display: block;
+
+}
+
+.footer h4 {
+    text-align: left;
+    font: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.footer ul li {
+    text-align: left;
+    color: white;
+}
+
+
