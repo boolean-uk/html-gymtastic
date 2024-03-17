@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.headerClass {
+  background-color: #357BA6;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+#gymnastic{
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: inline-block;
+  padding:0 20px 0 20px ;
+}
+header p{
+display: inline-block;
+padding: 0 10px 0 10px;
+}
+
+section {
+  margin: 20px 0 20px 30px;
+  h1 {
+    font-size: 29px;
+    color: #367497;
+    padding: 15px 0 15px 0;
+  }
+  p{
+    padding: 15px 0 10px 0;
+    span {
+      color: #357BA6;
+      font-weight: bold;
+    }
+  }
+}
+
+.getMembershipButton {
+  margin: 10px 0 15px 0 ;
+  padding: 14px 29px 14px 29px;
+  background-color: white;
+  color: #E88132;
+  border: 2px solid #E88132;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.instagramButton{
+  font-size: 18px;
+  padding: 10px 23px 10px 23px;
+  background-color: #874BF4;
+  color: white;
+  border: 1px solid #5C33A7;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px  gray;
+  margin-right: 15px;
+}
+
+.facebookButton{
+  font-size: 18px;
+  padding: 10px 23px 10px 23px;
+  background-color: #3578EA;
+  color: white;
+  border: 1px solid #2552A1;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px  gray;
+  margin-right: 15px;
+}
+
+.youtubeButton{
+  font-size: 18px;
+  padding: 10px 23px 10px 23px;
+  background-color: #EA3223;
+  color: white;
+  border: 1px solid #A12318;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px  gray;
+
+}
+.footerClass {
+  background-color: #357BA6;
+  padding: 20px 0 20px ;
+  color: white;
+  h3 {
+    padding: 0 0 20px 20px;
+    font-size: 15px;
+  }
+  h5{
+    padding: 1px 0 1px 20px;
+  }
+  p {
+    padding: 1px 0 1px 40px;
+    font-size: 13px;
+  }
+}
+
+
+
+
