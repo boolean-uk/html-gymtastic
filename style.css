@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+header {
+  display: block;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #357ba6;
+  color: #f5f8fa;
+  padding: 10px;
+}
+
+#navbar div, 
+#navbar h1 {
+  display: inline-block;
+  padding: 10px;
+}
+
+#navbar a {
+  color: #f5f8fa;
+  text-decoration: none;
+}
+
+#navbar div:hover {
+  background-color: #2d6689;
+}
+
+section h1 {
+  color: #367497;
+  font-size: 1.8em;
+}
+
+.info {
+  margin: 25px;
+}
+
+.info h1,
+.info p {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.info p {
+  font-size: 1em;
+}
+
+.info div {
+  display: block;
+  margin-top: 30px;
+}
+
+.info div h1 {
+  margin-bottom: 0;
+  padding-left: 2px;
+}
+
+.info strong {
+  color: #367ca6;
+}
+
+.GM {
+  color: #e98538;
+  background-color: #ffffff;
+  border-color: #e98538;
+}
+
+.GM a {
+  text-decoration: none;
+  color: #e98538
+}
+
+.GM, .IG, .YT, .FB {
+  display: block;
+  margin: 10px;
+  padding: 10px 25px 8px 25px;
+  border-radius: 10px;
+  border-style:solid;
+}
+
+.IG, .YT, .FB {
+  padding: 0px 20px;
+  display: inline;
+  box-shadow: 3px 3px 4px #c5c5c5;
+  margin: 0px 10px;
+}
+
+
+.IG h1, 
+.YT h1, 
+.FB h1 {
+  color: #f5f8fa;
+  padding-bottom: 4px;
+  font-size: 1.2em;
+}
+
+
+.IG {
+  background-color: #9f6ef6;
+  border: #774bc3 1px solid;
+}
+
+.FB {
+  background-color: #3578ea;
+  border: #1c4fa8 1px solid;
+}
+
+.YT {
+  background-color: #ea3223;
+  border: #b52518 1px solid;
+}
+
+.FB a, .IG a, .YT a {
+  color: #f5f8fa;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #357ba6;
+  color: #f5f8fa;
+  width: 100%;
+  padding: 25px 15px;
+}
+
+footer h2 {
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-bottom: 4px;
+}
+
+footer h3 {
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+  padding-bottom: 1px;
+}
+
+footer ul {
+  display: block;
+}
+
+footer li {
+  display: block;
+  margin-left: 20px;
+  font-weight: 100;
+  padding: 1px;
+}
+
+footer a {
+  color: #f5f8fa;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
